@@ -1,0 +1,4 @@
+webuntis>=0.1.24
+ics>=0.7.2
+PyYAML>=6.0
+python-dateutil>=2.8.2

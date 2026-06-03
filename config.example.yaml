@@ -1,0 +1,146 @@
+# ===============================================================
+# WebUntis Sync — Backend-Konfiguration
+# ===============================================================
+# Dieses Skript holt deinen Stundenplan aus WebUntis und legt ihn als
+# stundenplan.json ab, damit die App (../webuntis-app/) ihn lesen kann.
+# Optional kann zusaetzlich eine .ics-Datei fuer Google/Apple/Outlook
+# Kalender generiert werden (siehe outputs: weiter unten).
+#
+# Tausche Werte aus, kopiere die Datei nach `config.yaml` und committe sie
+# (Login-Daten kommen NICHT hier rein — die liegen in GitHub Secrets).
+# ===============================================================
+
+# --- WebUntis Server ---------------------------------------------
+# Trag hier den Server und die Schule deiner WebUntis-Instanz ein.
+# Die Server-URL findest du, wenn du dich normalerweise einloggst:
+#   z.B. https://hepta.webuntis.com -> server: "hepta.webuntis.com"
+# Den Schulnamen erkennst du am URL-Parameter ?school=... oder im Login.
+webuntis:
+  server: "hepta.webuntis.com"   # <-- ANPASSEN
+  school: "BHAK Zell am See"     # <-- ANPASSEN (exakter Name laut WebUntis)
+  # Benutzername & Passwort kommen NICHT hierhin — die werden zur Laufzeit
+  # aus Umgebungsvariablen gelesen (WEBUNTIS_USER, WEBUNTIS_PASSWORD).
+  # Beim Setup tragen wir die als GitHub Secrets ein.
+
+# --- Sync-Zeitraum -----------------------------------------------
+sync:
+  # Wie viele Wochen voraus synchronisiert werden sollen.
+  weeks_ahead: 4
+  # Wie viele Wochen rückwärts behalten werden (für Rückblick).
+  weeks_back: 1
+  # Zeitzone für den generierten Kalender.
+  timezone: "Europe/Vienna"
+
+# --- Output-Dateien ----------------------------------------------
+# Welche Dateien soll der Sync erzeugen?
+#   - JSON:  fuer die eigene App (immer an)
+#   - ICS:   nur falls du den Stundenplan in Google/Apple/Outlook teilen
+#            willst (z.B. Eltern wollen mitlesen). Default: aus, weil du
+#            ja die App nutzt.
+outputs:
+  json:
+    enabled: true
+  ics:
+    enabled: false
+
+# --- Kalender-Metadaten ------------------------------------------
+# Werden nur relevant wenn outputs.ics.enabled = true ist (siehe oben).
+# Standardmaessig nutzt die App diese Felder NICHT.
+calendar:
+  name: "Schule (WebUntis)"
+  description: "Automatisch generiert aus WebUntis"
+
+# --- Anzeige-Optionen (nur fuer ICS-Output) ----------------------
+# Wenn outputs.ics.enabled = false ist, kannst du diese Sektion ignorieren —
+# die App formatiert Titel/Untertitel selbst.
+display:
+  title_format: "{subject} ({room})"
+  description_format: |
+    Lehrer: {teacher}
+    Raum: {room}
+    Klasse: {class}
+  location_format: "{room}"
+  include_breaks: false
+
+# --- Fach-Konfiguration ------------------------------------------
+# Pro Fach: Farbe (hex) und optional Aliase (Schreibweisen die in WebUntis
+# vorkommen koennen). Die App liest diese Farben als Default; pro Geraet
+# kannst du sie in den App-Settings ueberschreiben.
+subjects:
+  Mathematik:
+    color: "#3498db"           # blau
+    aliases: ["M", "Mathe", "MAM"]
+  Deutsch:
+    color: "#e74c3c"           # rot
+    aliases: ["D", "DEU"]
+  Englisch:
+    color: "#f1c40f"           # gelb
+    aliases: ["E", "ENG"]
+  Geschichte:
+    color: "#8e44ad"           # lila
+    aliases: ["GSK", "GS"]
+  Sport:
+    color: "#2ecc71"           # grün
+    aliases: ["BSPK", "LUM"]
+  # ... füge hier deine eigenen Fächer hinzu
+  # Standard-Farbe falls Fach nicht gelistet:
+  _default:
+    color: "#95a5a6"           # grau
+
+# --- Filter: Stunden ausblenden ----------------------------------
+# Stunden, die in WebUntis stehen, aber NICHT im Kalender landen sollen.
+filter:
+  # Ganze Fächer ignorieren (z.B. AGs, die du nicht besuchst).
+  exclude_subjects: []
+  # Beispiele:
+  # exclude_subjects: ["Religion", "Chor-AG"]
+
+  # Bestimmte Lehrer ignorieren.
+  exclude_teachers: []
+
+  # Bestimmte Klassen/Kurse ignorieren (nützlich wenn du in WebUntis mehrere
+  # Klassen siehst, aber nur deine eigenen Stunden willst).
+  exclude_classes: []
+
+  # Wochentage ignorieren (0=Montag ... 6=Sonntag).
+  exclude_weekdays: []
+
+# --- Vertretungen, Entfälle, Raumwechsel -------------------------
+# So werden besondere Stunden visuell hervorgehoben.
+substitutions:
+  # Entfallene Stunden: komplett aus dem Kalender entfernen
+  # ODER als durchgestrichenes Event drinlassen (mit Präfix)?
+  cancelled:
+    mode: "mark"               # "remove" oder "mark"
+    title_prefix: "⊘ ENTFALL: "
+    color: "#7f8c8d"           # grau
+
+  # Vertretungsstunden (anderer Lehrer)
+  substitute:
+    title_prefix: "↻ "
+    show_original_teacher: true
+    color: "#e67e22"           # orange
+
+  # Raumwechsel
+  room_change:
+    title_prefix: "⌂ "
+    show_original_room: true
+
+  # Sonderveranstaltungen / Zusatzunterricht
+  additional:
+    title_prefix: "+ "
+    color: "#16a085"           # türkis
+
+# --- Klausuren & besondere Events --------------------------------
+exams:
+  # Klausuren extra markieren
+  enabled: true
+  title_prefix: "📝 KLAUSUR: "
+  color: "#c0392b"             # dunkelrot
+  # Erinnerung X Minuten vorher (0 = aus)
+  reminder_minutes: 1440       # 1 Tag vorher
+
+homework:
+  # Hausaufgaben als Aufgaben/Erinnerungen anzeigen
+  enabled: false               # Standard: aus (kann nervig sein)
+  title_prefix: "✎ HÜ: "

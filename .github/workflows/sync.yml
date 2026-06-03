@@ -1,0 +1,45 @@
+name: WebUntis Sync
+
+on:
+  schedule:
+    # Stuendlich (zur Minute 17, um den Top-of-Hour zu vermeiden)
+    - cron: '17 * * * *'
+  workflow_dispatch:        # manuelles Ausloesen aus der Actions-UI
+
+permissions:
+  contents: write           # zum Committen der stundenplan.json (und optional .ics)
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Sync WebUntis
+        env:
+          WEBUNTIS_USER: ${{ secrets.WEBUNTIS_USER }}
+          WEBUNTIS_PASSWORD: ${{ secrets.WEBUNTIS_PASSWORD }}
+        run: python webuntis_sync.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Stage alle moeglichen Outputs (auch Loeschungen, falls ICS deaktiviert wurde)
+          git add -A stundenplan.json stundenplan.ics
+          if git diff --cached --quiet; then
+            echo "Keine Aenderungen am Stundenplan."
+          else
+            git commit -m "sync: WebUntis ($(date -u +'%Y-%m-%d %H:%MZ'))"
+            git push
+          fi
