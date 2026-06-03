@@ -1,0 +1,3928 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-03T14:47:19.377487+00:00",
+  "timezone": "Europe/Vienna",
+  "school": {
+    "name": "hakzell-hlpzell",
+    "server": "hakzell-hlpzell.webuntis.com"
+  },
+  "calendar": {
+    "name": "Schule (WebUntis)",
+    "description": "Automatisch generiert aus WebUntis"
+  },
+  "subjects": {
+    "Mathematik": {
+      "color": "#3498db",
+      "aliases": [
+        "M",
+        "Mathe",
+        "MAM",
+        "AM",
+        "Angewandte Mathematik"
+      ]
+    },
+    "Deutsch": {
+      "color": "#e74c3c",
+      "aliases": [
+        "D",
+        "DEU"
+      ]
+    },
+    "Englisch": {
+      "color": "#f1c40f",
+      "aliases": [
+        "E",
+        "ENG",
+        "BE",
+        "Business English"
+      ]
+    },
+    "Geschichte": {
+      "color": "#8e44ad",
+      "aliases": [
+        "GSK",
+        "GS",
+        "GWK"
+      ]
+    },
+    "Sport": {
+      "color": "#2ecc71",
+      "aliases": [
+        "BSPK",
+        "LUM",
+        "BEW"
+      ]
+    },
+    "Betriebswirtschaft": {
+      "color": "#16a085",
+      "aliases": [
+        "BW",
+        "BWL"
+      ]
+    },
+    "Rechnungswesen": {
+      "color": "#1abc9c",
+      "aliases": [
+        "RW",
+        "UNRW"
+      ]
+    },
+    "Wirtschaftsinformatik": {
+      "color": "#34495e",
+      "aliases": [
+        "WINF",
+        "INF",
+        "DV"
+      ]
+    }
+  },
+  "default_color": "#95a5a6",
+  "lessons": [
+    {
+      "id": "e61f9a2a9e630107",
+      "start": "2026-05-27T07:40:00",
+      "end": "2026-05-27T08:30:00",
+      "subject_raw": "GEO",
+      "subject_canonical": "GEO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#198"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "a23a6d0c7e971c80",
+      "start": "2026-05-27T08:30:00",
+      "end": "2026-05-27T09:20:00",
+      "subject_raw": "GEO",
+      "subject_canonical": "GEO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#198"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "83eff3982fdea2a2",
+      "start": "2026-05-27T09:35:00",
+      "end": "2026-05-27T10:25:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "8fa30f23a162fefd",
+      "start": "2026-05-27T10:25:00",
+      "end": "2026-05-27T11:15:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "732ab2bd7bd07bdb",
+      "start": "2026-05-27T11:25:00",
+      "end": "2026-05-27T12:15:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "4c61750e9deb16b5",
+      "start": "2026-05-27T12:15:00",
+      "end": "2026-05-27T13:05:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "46a024cd0d73d46d",
+      "start": "2026-05-27T13:40:00",
+      "end": "2026-05-27T14:30:00",
+      "subject_raw": "RK",
+      "subject_canonical": "RK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#255"
+      ],
+      "rooms": [
+        "R2AK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "019b74c7384adb75",
+      "start": "2026-05-27T14:30:00",
+      "end": "2026-05-27T15:20:00",
+      "subject_raw": "RK",
+      "subject_canonical": "RK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#255"
+      ],
+      "rooms": [
+        "R2AK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "d9f481b066192abd",
+      "start": "2026-05-28T07:40:00",
+      "end": "2026-05-28T08:30:00",
+      "subject_raw": "MAM",
+      "subject_canonical": "Mathematik",
+      "subject_color": "#3498db",
+      "teachers": [
+        "#288"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "c8b34ddda3c2cdc1",
+      "start": "2026-05-28T08:30:00",
+      "end": "2026-05-28T09:20:00",
+      "subject_raw": "MAM",
+      "subject_canonical": "Mathematik",
+      "subject_color": "#3498db",
+      "teachers": [
+        "#288"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "1cb4899fe1334643",
+      "start": "2026-05-28T09:35:00",
+      "end": "2026-05-28T13:05:00",
+      "subject_raw": "?",
+      "subject_canonical": "?",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "Exkursion Senoplast Piesendorf"
+    },
+    {
+      "id": "9692553c66546aed",
+      "start": "2026-05-28T09:35:00",
+      "end": "2026-05-28T10:25:00",
+      "subject_raw": "NW3",
+      "subject_canonical": "NW3",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "NAWI"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "f6f6c0d2295a10ee",
+      "start": "2026-05-28T10:25:00",
+      "end": "2026-05-28T11:15:00",
+      "subject_raw": "NW3",
+      "subject_canonical": "NW3",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "NAWI"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "f4d5b955d983bf05",
+      "start": "2026-05-28T11:25:00",
+      "end": "2026-05-28T12:15:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "8807bc9cdb28671d",
+      "start": "2026-05-28T12:15:00",
+      "end": "2026-05-28T13:05:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "0ae35b0a43c02955",
+      "start": "2026-05-29T07:40:00",
+      "end": "2026-05-29T08:30:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "ba89e007cd8f2371",
+      "start": "2026-05-29T08:30:00",
+      "end": "2026-05-29T09:20:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "29315f937f3f974a",
+      "start": "2026-05-29T09:35:00",
+      "end": "2026-05-29T10:25:00",
+      "subject_raw": "OMAI",
+      "subject_canonical": "OMAI",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#168"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "4b1c607a61f2a666",
+      "start": "2026-05-29T10:25:00",
+      "end": "2026-05-29T11:15:00",
+      "subject_raw": "OMAI",
+      "subject_canonical": "OMAI",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#168"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "4464a39b82587c6e",
+      "start": "2026-05-29T11:25:00",
+      "end": "2026-05-29T12:15:00",
+      "subject_raw": "PBGW",
+      "subject_canonical": "PBGW",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#165"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "48d51fb928d8cafb",
+      "start": "2026-05-29T12:15:00",
+      "end": "2026-05-29T13:05:00",
+      "subject_raw": "PBGW",
+      "subject_canonical": "PBGW",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#165"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "a0e8aa0d9437f53e",
+      "start": "2026-06-01T07:40:00",
+      "end": "2026-06-01T08:30:00",
+      "subject_raw": "IMCM",
+      "subject_canonical": "IMCM",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#174"
+      ],
+      "rooms": [
+        "EDV3"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "d4194c83bf562888",
+      "start": "2026-06-01T08:30:00",
+      "end": "2026-06-01T09:20:00",
+      "subject_raw": "IMCM",
+      "subject_canonical": "IMCM",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#174"
+      ],
+      "rooms": [
+        "EDV3"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "ed24ebf8c204ab1f",
+      "start": "2026-06-01T09:35:00",
+      "end": "2026-06-01T10:25:00",
+      "subject_raw": "WIDS",
+      "subject_canonical": "WIDS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#162"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "d4e96237d6b01781",
+      "start": "2026-06-01T10:25:00",
+      "end": "2026-06-01T11:15:00",
+      "subject_raw": "WIDS",
+      "subject_canonical": "WIDS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#162"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "434bc832cdd6b79e",
+      "start": "2026-06-01T11:25:00",
+      "end": "2026-06-01T12:15:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "Koppelung mit 2HLP"
+    },
+    {
+      "id": "e68b724757b5493f",
+      "start": "2026-06-01T12:15:00",
+      "end": "2026-06-01T13:05:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "Koppelung mit 2HLP"
+    },
+    {
+      "id": "9075a68d72764158",
+      "start": "2026-06-01T13:40:00",
+      "end": "2026-06-01T14:30:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "28e74e9bf7841ba6",
+      "start": "2026-06-01T14:30:00",
+      "end": "2026-06-01T15:20:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "6681afd3a2956809",
+      "start": "2026-06-02T07:40:00",
+      "end": "2026-06-02T08:30:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "4ddddfdb82b17dbf",
+      "start": "2026-06-02T07:40:00",
+      "end": "2026-06-02T08:30:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#225"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "b2e85029c032a97f",
+      "start": "2026-06-02T08:30:00",
+      "end": "2026-06-02T09:20:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#216"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [
+        "#186"
+      ],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "0d2db966e981a966",
+      "start": "2026-06-02T09:35:00",
+      "end": "2026-06-02T10:25:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#e74c3c",
+      "teachers": [
+        "#231"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "5f36999264a6a05b",
+      "start": "2026-06-02T09:35:00",
+      "end": "2026-06-02T10:25:00",
+      "subject_raw": "WIDS",
+      "subject_canonical": "WIDS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#162"
+      ],
+      "rooms": [
+        "BWZ"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "f4521b18dda07272",
+      "start": "2026-06-02T10:25:00",
+      "end": "2026-06-02T11:15:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#e74c3c",
+      "teachers": [
+        "#231"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "e8ad9ecd55059180",
+      "start": "2026-06-02T10:25:00",
+      "end": "2026-06-02T11:15:00",
+      "subject_raw": "WIDS",
+      "subject_canonical": "WIDS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#162"
+      ],
+      "rooms": [
+        "BWZ"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "00c1b8f24ea054c2",
+      "start": "2026-06-02T11:25:00",
+      "end": "2026-06-02T13:40:00",
+      "subject_raw": "?",
+      "subject_canonical": "?",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R5AK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "Workshop traffic safety for you - WS Drogen - Beginn: 12:00 Uhr"
+    },
+    {
+      "id": "d6248d197f6a14e3",
+      "start": "2026-06-02T11:25:00",
+      "end": "2026-06-02T12:15:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "20a4e3391f8049e9",
+      "start": "2026-06-02T12:15:00",
+      "end": "2026-06-02T13:05:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "4140dde0584a85ea",
+      "start": "2026-06-02T13:40:00",
+      "end": "2026-06-02T14:30:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "R5AK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "Workshop traffic safety for you - WS Drogen"
+    },
+    {
+      "id": "6489dd5d694696c5",
+      "start": "2026-06-02T14:30:00",
+      "end": "2026-06-02T15:20:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "R5AK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "Workshop traffic safety for you - WS Drogen"
+    },
+    {
+      "id": "e72cfd35fccac45e",
+      "start": "2026-06-03T07:40:00",
+      "end": "2026-06-03T08:30:00",
+      "subject_raw": "GEO",
+      "subject_canonical": "GEO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#198"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "b5f01b445abd2452",
+      "start": "2026-06-03T08:30:00",
+      "end": "2026-06-03T09:20:00",
+      "subject_raw": "GEO",
+      "subject_canonical": "GEO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#198"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "0f5e0d74e4042f0c",
+      "start": "2026-06-03T09:35:00",
+      "end": "2026-06-03T10:25:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "89dc26f6f94c8145",
+      "start": "2026-06-03T10:25:00",
+      "end": "2026-06-03T11:15:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "b36e2373de443c93",
+      "start": "2026-06-03T11:25:00",
+      "end": "2026-06-03T12:15:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "a3ba5ad84c80734b",
+      "start": "2026-06-03T12:15:00",
+      "end": "2026-06-03T13:05:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "762c2c4bd04cceb2",
+      "start": "2026-06-08T07:40:00",
+      "end": "2026-06-08T08:30:00",
+      "subject_raw": "IMCM",
+      "subject_canonical": "IMCM",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#174"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "cf0b52e30905c363",
+      "start": "2026-06-08T08:30:00",
+      "end": "2026-06-08T09:20:00",
+      "subject_raw": "IMCM",
+      "subject_canonical": "IMCM",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#174"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "515f2fc7893715b1",
+      "start": "2026-06-08T09:35:00",
+      "end": "2026-06-08T10:25:00",
+      "subject_raw": "WIDS",
+      "subject_canonical": "WIDS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#162"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "183d86b2397846d6",
+      "start": "2026-06-08T10:25:00",
+      "end": "2026-06-08T11:15:00",
+      "subject_raw": "WIDS",
+      "subject_canonical": "WIDS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#162"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "23adaa6782cdf9e3",
+      "start": "2026-06-08T11:25:00",
+      "end": "2026-06-08T12:15:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "Koppelung mit 2HLP"
+    },
+    {
+      "id": "bb77142c745647e8",
+      "start": "2026-06-08T12:15:00",
+      "end": "2026-06-08T13:05:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "Koppelung mit 2HLP"
+    },
+    {
+      "id": "608b304b252ffe5e",
+      "start": "2026-06-09T07:40:00",
+      "end": "2026-06-09T08:30:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "80a66925eb6e86ae",
+      "start": "2026-06-09T08:30:00",
+      "end": "2026-06-09T09:20:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "44ac7871c53571fe",
+      "start": "2026-06-09T09:35:00",
+      "end": "2026-06-09T10:25:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#e74c3c",
+      "teachers": [
+        "#231"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "6a940579c8d95a7d",
+      "start": "2026-06-09T10:25:00",
+      "end": "2026-06-09T11:15:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#e74c3c",
+      "teachers": [
+        "#231"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "85d4dc7d923be8ca",
+      "start": "2026-06-09T11:25:00",
+      "end": "2026-06-09T12:15:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "4470fbfda5fe4db8",
+      "start": "2026-06-09T12:15:00",
+      "end": "2026-06-09T13:05:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "798cd60f7ecad0dc",
+      "start": "2026-06-10T07:40:00",
+      "end": "2026-06-10T08:30:00",
+      "subject_raw": "GEO",
+      "subject_canonical": "GEO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#198"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "5516fbf9ece1cf32",
+      "start": "2026-06-10T08:30:00",
+      "end": "2026-06-10T09:20:00",
+      "subject_raw": "GEO",
+      "subject_canonical": "GEO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#198"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "c0eeeb082415a728",
+      "start": "2026-06-10T09:35:00",
+      "end": "2026-06-10T10:25:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "859ea5494fcff3eb",
+      "start": "2026-06-10T10:25:00",
+      "end": "2026-06-10T11:15:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "c3cd28b950071dba",
+      "start": "2026-06-10T11:25:00",
+      "end": "2026-06-10T12:15:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "5452fefc1b48a90a",
+      "start": "2026-06-10T11:25:00",
+      "end": "2026-06-10T12:15:00",
+      "subject_raw": "PBGW",
+      "subject_canonical": "PBGW",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#165"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "b0ead408ed673c5e",
+      "start": "2026-06-10T12:15:00",
+      "end": "2026-06-10T13:05:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "672f3f6c1a1b9f08",
+      "start": "2026-06-10T12:15:00",
+      "end": "2026-06-10T13:05:00",
+      "subject_raw": "PBGW",
+      "subject_canonical": "PBGW",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#165"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "41ddaee5f3637f60",
+      "start": "2026-06-10T13:40:00",
+      "end": "2026-06-10T14:30:00",
+      "subject_raw": "RK",
+      "subject_canonical": "RK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#255"
+      ],
+      "rooms": [
+        "R2AK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "9f8f4b86ea4f2351",
+      "start": "2026-06-10T14:30:00",
+      "end": "2026-06-10T15:20:00",
+      "subject_raw": "RK",
+      "subject_canonical": "RK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#255"
+      ],
+      "rooms": [
+        "R2AK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "bc36878af328873d",
+      "start": "2026-06-11T07:40:00",
+      "end": "2026-06-11T08:30:00",
+      "subject_raw": "MAM",
+      "subject_canonical": "Mathematik",
+      "subject_color": "#3498db",
+      "teachers": [
+        "#288"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "883a420a52d8a12b",
+      "start": "2026-06-11T08:30:00",
+      "end": "2026-06-11T09:20:00",
+      "subject_raw": "MAM",
+      "subject_canonical": "Mathematik",
+      "subject_color": "#3498db",
+      "teachers": [
+        "#288"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "6694afc60fd412dc",
+      "start": "2026-06-11T09:35:00",
+      "end": "2026-06-11T10:25:00",
+      "subject_raw": "NW3",
+      "subject_canonical": "NW3",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "NAWI"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "e1ef89ce4be27d6e",
+      "start": "2026-06-11T10:25:00",
+      "end": "2026-06-11T11:15:00",
+      "subject_raw": "NW3",
+      "subject_canonical": "NW3",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "NAWI"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "f73a1fe4e2cbeb70",
+      "start": "2026-06-11T11:25:00",
+      "end": "2026-06-11T12:15:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "b01c28b057b3a5f5",
+      "start": "2026-06-11T11:25:00",
+      "end": "2026-06-11T12:15:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "EDV3"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "66b60d155e5b9334",
+      "start": "2026-06-11T12:15:00",
+      "end": "2026-06-11T13:05:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "d903787fc04e2e5c",
+      "start": "2026-06-11T12:15:00",
+      "end": "2026-06-11T13:05:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "EDV3"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "4259e0a1fd90dcd7",
+      "start": "2026-06-12T07:40:00",
+      "end": "2026-06-12T08:30:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "0865dd0d4692ccd4",
+      "start": "2026-06-12T08:30:00",
+      "end": "2026-06-12T09:20:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "67997308bd75a45a",
+      "start": "2026-06-12T09:35:00",
+      "end": "2026-06-12T10:25:00",
+      "subject_raw": "OMAI",
+      "subject_canonical": "OMAI",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#168"
+      ],
+      "rooms": [
+        "EDV3"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "097985bdd17868ab",
+      "start": "2026-06-12T10:25:00",
+      "end": "2026-06-12T11:15:00",
+      "subject_raw": "OMAI",
+      "subject_canonical": "OMAI",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#168"
+      ],
+      "rooms": [
+        "EDV3"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "fc4c98c951c3fce3",
+      "start": "2026-06-12T11:25:00",
+      "end": "2026-06-12T12:15:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "24.11. / 3 (Unt.: 501)"
+    },
+    {
+      "id": "985628f533f05f60",
+      "start": "2026-06-12T11:25:00",
+      "end": "2026-06-12T12:15:00",
+      "subject_raw": "PBGW",
+      "subject_canonical": "PBGW",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#165"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "24.11. / 3 (Unt.: 501)"
+    },
+    {
+      "id": "0bd13691a8588fb6",
+      "start": "2026-06-12T12:15:00",
+      "end": "2026-06-12T13:05:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "24.11. / 4 (Unt.: 501)"
+    },
+    {
+      "id": "517d453082392c9a",
+      "start": "2026-06-12T12:15:00",
+      "end": "2026-06-12T13:05:00",
+      "subject_raw": "PBGW",
+      "subject_canonical": "PBGW",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#165"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "24.11. / 4 (Unt.: 501)"
+    },
+    {
+      "id": "a3c7a8a070c2ce47",
+      "start": "2026-06-12T13:40:00",
+      "end": "2026-06-12T14:30:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "16.2. / 5 (Unt.: 367)"
+    },
+    {
+      "id": "b538a6a126ad21fa",
+      "start": "2026-06-12T14:30:00",
+      "end": "2026-06-12T15:20:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "16.2. / 6 (Unt.: 367)"
+    },
+    {
+      "id": "65a7e18e40695d22",
+      "start": "2026-06-15T07:40:00",
+      "end": "2026-06-15T08:30:00",
+      "subject_raw": "IMCM",
+      "subject_canonical": "IMCM",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#174"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "11d1b6fc01bee747",
+      "start": "2026-06-15T08:30:00",
+      "end": "2026-06-15T09:20:00",
+      "subject_raw": "IMCM",
+      "subject_canonical": "IMCM",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#174"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "ccf3a37dcf0837ff",
+      "start": "2026-06-15T09:35:00",
+      "end": "2026-06-15T10:25:00",
+      "subject_raw": "WIDS",
+      "subject_canonical": "WIDS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#162"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "d9e0154971a1065f",
+      "start": "2026-06-15T10:25:00",
+      "end": "2026-06-15T11:15:00",
+      "subject_raw": "WIDS",
+      "subject_canonical": "WIDS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#162"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "79eba93790cad80b",
+      "start": "2026-06-15T11:25:00",
+      "end": "2026-06-15T12:15:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "Koppelung mit 2HLP"
+    },
+    {
+      "id": "3d9c09141f91d2e3",
+      "start": "2026-06-15T12:15:00",
+      "end": "2026-06-15T13:05:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "Koppelung mit 2HLP"
+    },
+    {
+      "id": "06ac52f6f43867ed",
+      "start": "2026-06-15T13:40:00",
+      "end": "2026-06-15T14:30:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "95c53ab16611a1f8",
+      "start": "2026-06-15T14:30:00",
+      "end": "2026-06-15T15:20:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "b5c6c4627ce4bd14",
+      "start": "2026-06-16T07:40:00",
+      "end": "2026-06-16T08:30:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "d5e470f83ecac03f",
+      "start": "2026-06-16T08:30:00",
+      "end": "2026-06-16T09:20:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "de915c281bc98df5",
+      "start": "2026-06-16T09:35:00",
+      "end": "2026-06-16T10:25:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#e74c3c",
+      "teachers": [
+        "#231"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "0cabcf5be185840a",
+      "start": "2026-06-16T10:25:00",
+      "end": "2026-06-16T11:15:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#e74c3c",
+      "teachers": [
+        "#231"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "f256b9b3af44eca7",
+      "start": "2026-06-16T11:25:00",
+      "end": "2026-06-16T12:15:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "0c877b8fcc8bd7e5",
+      "start": "2026-06-16T12:15:00",
+      "end": "2026-06-16T13:05:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "8015bcb1c9c7d7ae",
+      "start": "2026-06-17T07:40:00",
+      "end": "2026-06-17T08:30:00",
+      "subject_raw": "GEO",
+      "subject_canonical": "GEO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#198"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "2eb2521f4989873b",
+      "start": "2026-06-17T08:30:00",
+      "end": "2026-06-17T09:20:00",
+      "subject_raw": "GEO",
+      "subject_canonical": "GEO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#198"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "0d324252137c88ab",
+      "start": "2026-06-17T09:35:00",
+      "end": "2026-06-17T10:25:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "3a0131020f485070",
+      "start": "2026-06-17T10:25:00",
+      "end": "2026-06-17T11:15:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "724ca6f6343abb46",
+      "start": "2026-06-17T11:25:00",
+      "end": "2026-06-17T12:15:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "aa5da872ae0310f0",
+      "start": "2026-06-17T12:15:00",
+      "end": "2026-06-17T13:05:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "6860c90d37005a19",
+      "start": "2026-06-18T07:40:00",
+      "end": "2026-06-18T08:30:00",
+      "subject_raw": "MAM",
+      "subject_canonical": "Mathematik",
+      "subject_color": "#3498db",
+      "teachers": [
+        "#288"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "994d9e9b5aece623",
+      "start": "2026-06-18T08:30:00",
+      "end": "2026-06-18T09:20:00",
+      "subject_raw": "MAM",
+      "subject_canonical": "Mathematik",
+      "subject_color": "#3498db",
+      "teachers": [
+        "#288"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "a60112145529b039",
+      "start": "2026-06-18T09:35:00",
+      "end": "2026-06-18T10:25:00",
+      "subject_raw": "NW3",
+      "subject_canonical": "NW3",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "NAWI"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "fe11e8611e2a8255",
+      "start": "2026-06-18T10:25:00",
+      "end": "2026-06-18T11:15:00",
+      "subject_raw": "NW3",
+      "subject_canonical": "NW3",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "NAWI"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "2b66fd11b18289e3",
+      "start": "2026-06-18T11:25:00",
+      "end": "2026-06-18T12:15:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#e74c3c",
+      "teachers": [
+        "#231"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "eaa3ffc401f344a0",
+      "start": "2026-06-18T12:15:00",
+      "end": "2026-06-18T13:05:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#e74c3c",
+      "teachers": [
+        "#231"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "48bd3523cc1d89a3",
+      "start": "2026-06-19T07:40:00",
+      "end": "2026-06-19T08:30:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "b9893dfb21e26916",
+      "start": "2026-06-19T08:30:00",
+      "end": "2026-06-19T09:20:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "c48cb15500076d91",
+      "start": "2026-06-19T09:35:00",
+      "end": "2026-06-19T10:25:00",
+      "subject_raw": "OMAI",
+      "subject_canonical": "OMAI",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#168"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "da0d44b984616937",
+      "start": "2026-06-19T10:25:00",
+      "end": "2026-06-19T11:15:00",
+      "subject_raw": "OMAI",
+      "subject_canonical": "OMAI",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#168"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "6082f4a7c07ed868",
+      "start": "2026-06-22T07:40:00",
+      "end": "2026-06-22T08:30:00",
+      "subject_raw": "IMCM",
+      "subject_canonical": "IMCM",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#174"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "05e3f9012b87090b",
+      "start": "2026-06-22T08:30:00",
+      "end": "2026-06-22T09:20:00",
+      "subject_raw": "IMCM",
+      "subject_canonical": "IMCM",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#174"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "0d8383790d04683b",
+      "start": "2026-06-22T09:35:00",
+      "end": "2026-06-22T10:25:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "7825139c6b87a940",
+      "start": "2026-06-22T09:35:00",
+      "end": "2026-06-22T10:25:00",
+      "subject_raw": "WIDS",
+      "subject_canonical": "WIDS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#162"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "26facc26fc9573c2",
+      "start": "2026-06-22T10:25:00",
+      "end": "2026-06-22T11:15:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "49aa0aee3e9000ba",
+      "start": "2026-06-22T10:25:00",
+      "end": "2026-06-22T11:15:00",
+      "subject_raw": "WIDS",
+      "subject_canonical": "WIDS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#162"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "2b99b4e8fc2bbc1b",
+      "start": "2026-06-22T11:25:00",
+      "end": "2026-06-22T12:15:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "Koppelung mit 2HLP"
+    },
+    {
+      "id": "e467ab9491a59122",
+      "start": "2026-06-22T12:15:00",
+      "end": "2026-06-22T13:05:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "Koppelung mit 2HLP"
+    },
+    {
+      "id": "e0aac46418a74010",
+      "start": "2026-06-23T07:40:00",
+      "end": "2026-06-23T08:30:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "de61aa4f67de930d",
+      "start": "2026-06-23T08:30:00",
+      "end": "2026-06-23T09:20:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "2cb59437b3215ef8",
+      "start": "2026-06-23T09:35:00",
+      "end": "2026-06-23T10:25:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#e74c3c",
+      "teachers": [
+        "#231"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "a2b33b8f5ba3769b",
+      "start": "2026-06-23T10:25:00",
+      "end": "2026-06-23T11:15:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#e74c3c",
+      "teachers": [
+        "#231"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "e6c9d9d9bdee7303",
+      "start": "2026-06-23T11:25:00",
+      "end": "2026-06-23T12:15:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "0744b94fb906b765",
+      "start": "2026-06-23T12:15:00",
+      "end": "2026-06-23T13:05:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "097b1144691b0dd6",
+      "start": "2026-06-24T07:40:00",
+      "end": "2026-06-24T08:30:00",
+      "subject_raw": "GEO",
+      "subject_canonical": "GEO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#198"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "27b83f80764cbef0",
+      "start": "2026-06-24T08:30:00",
+      "end": "2026-06-24T09:20:00",
+      "subject_raw": "GEO",
+      "subject_canonical": "GEO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#198"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "e3a9bfa8fc38ce82",
+      "start": "2026-06-24T09:35:00",
+      "end": "2026-06-24T10:25:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "d0292cdec0889ce6",
+      "start": "2026-06-24T10:25:00",
+      "end": "2026-06-24T11:15:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "e42cc5e0ff43f3e5",
+      "start": "2026-06-24T11:25:00",
+      "end": "2026-06-24T12:15:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "106c7cfe9ce1ca67",
+      "start": "2026-06-24T12:15:00",
+      "end": "2026-06-24T13:05:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "07790503b2144e70",
+      "start": "2026-06-24T13:40:00",
+      "end": "2026-06-24T14:30:00",
+      "subject_raw": "RK",
+      "subject_canonical": "RK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#255"
+      ],
+      "rooms": [
+        "R2AK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "c5658a5e705d2b0a",
+      "start": "2026-06-24T14:30:00",
+      "end": "2026-06-24T15:20:00",
+      "subject_raw": "RK",
+      "subject_canonical": "RK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#255"
+      ],
+      "rooms": [
+        "R2AK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "7622c57604d45463",
+      "start": "2026-06-25T07:40:00",
+      "end": "2026-06-25T08:30:00",
+      "subject_raw": "MAM",
+      "subject_canonical": "Mathematik",
+      "subject_color": "#3498db",
+      "teachers": [
+        "#288"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "fdbc799ec8fdd45b",
+      "start": "2026-06-25T08:30:00",
+      "end": "2026-06-25T09:20:00",
+      "subject_raw": "MAM",
+      "subject_canonical": "Mathematik",
+      "subject_color": "#3498db",
+      "teachers": [
+        "#288"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "93f8fe8e22855c24",
+      "start": "2026-06-25T09:35:00",
+      "end": "2026-06-25T10:25:00",
+      "subject_raw": "NW3",
+      "subject_canonical": "NW3",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "NAWI"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "5143c09c3957936e",
+      "start": "2026-06-25T10:25:00",
+      "end": "2026-06-25T11:15:00",
+      "subject_raw": "NW3",
+      "subject_canonical": "NW3",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "NAWI"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "9bb6ca90e69f7c96",
+      "start": "2026-06-25T11:25:00",
+      "end": "2026-06-25T12:15:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "c238f5472187bd14",
+      "start": "2026-06-25T12:15:00",
+      "end": "2026-06-25T13:05:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "9ba2de62d8db0459",
+      "start": "2026-06-26T07:40:00",
+      "end": "2026-06-26T08:30:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "a3d88332ccf8a396",
+      "start": "2026-06-26T07:40:00",
+      "end": "2026-06-26T08:30:00",
+      "subject_raw": "PBGW",
+      "subject_canonical": "PBGW",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#165"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "7f538fc8a1eb1ec6",
+      "start": "2026-06-26T08:30:00",
+      "end": "2026-06-26T09:20:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "e9ff65f9d6144a9c",
+      "start": "2026-06-26T08:30:00",
+      "end": "2026-06-26T09:20:00",
+      "subject_raw": "PBGW",
+      "subject_canonical": "PBGW",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#165"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "86b6fc5878420bac",
+      "start": "2026-06-26T09:35:00",
+      "end": "2026-06-26T10:25:00",
+      "subject_raw": "OMAI",
+      "subject_canonical": "OMAI",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#168"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "ade98269a9d9a930",
+      "start": "2026-06-26T10:25:00",
+      "end": "2026-06-26T11:15:00",
+      "subject_raw": "OMAI",
+      "subject_canonical": "OMAI",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#168"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "53b40b045b08ba7e",
+      "start": "2026-06-26T11:25:00",
+      "end": "2026-06-26T12:15:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "v. 4.5. 5.+6."
+    },
+    {
+      "id": "fe7412c00e5844c2",
+      "start": "2026-06-26T11:25:00",
+      "end": "2026-06-26T12:15:00",
+      "subject_raw": "PBGW",
+      "subject_canonical": "PBGW",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#165"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "fd7f48adc3c51ac6",
+      "start": "2026-06-26T12:15:00",
+      "end": "2026-06-26T13:05:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "v. 4.5. 5.+6."
+    },
+    {
+      "id": "79eaaebe6a25f339",
+      "start": "2026-06-26T12:15:00",
+      "end": "2026-06-26T13:05:00",
+      "subject_raw": "PBGW",
+      "subject_canonical": "PBGW",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#165"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "fb3d97f2bb06ce32",
+      "start": "2026-06-29T07:40:00",
+      "end": "2026-06-29T08:30:00",
+      "subject_raw": "IMCM",
+      "subject_canonical": "IMCM",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#174"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "de284a82297fca0e",
+      "start": "2026-06-29T08:30:00",
+      "end": "2026-06-29T09:20:00",
+      "subject_raw": "IMCM",
+      "subject_canonical": "IMCM",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#174"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "2407a637d566fbc4",
+      "start": "2026-06-29T09:35:00",
+      "end": "2026-06-29T10:25:00",
+      "subject_raw": "WIDS",
+      "subject_canonical": "WIDS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#162"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "c871ea76a75975b1",
+      "start": "2026-06-29T10:25:00",
+      "end": "2026-06-29T11:15:00",
+      "subject_raw": "WIDS",
+      "subject_canonical": "WIDS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#162"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "25ecbfa6399670b5",
+      "start": "2026-06-29T11:25:00",
+      "end": "2026-06-29T12:15:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "Koppelung mit 2HLP"
+    },
+    {
+      "id": "0bd720b4d2a7757d",
+      "start": "2026-06-29T12:15:00",
+      "end": "2026-06-29T13:05:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "BESPK",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": "Koppelung mit 2HLP"
+    },
+    {
+      "id": "63a6ef2d30aed784",
+      "start": "2026-06-29T13:40:00",
+      "end": "2026-06-29T14:30:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "fd989e00e0afef97",
+      "start": "2026-06-29T14:30:00",
+      "end": "2026-06-29T15:20:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "42ed24841590159c",
+      "start": "2026-06-30T07:40:00",
+      "end": "2026-06-30T08:30:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "3bdbe9ed8d6b81d8",
+      "start": "2026-06-30T08:30:00",
+      "end": "2026-06-30T09:20:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#16a085",
+      "teachers": [
+        "#186"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "4d6f5ea1c8351e1c",
+      "start": "2026-06-30T09:35:00",
+      "end": "2026-06-30T10:25:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#e74c3c",
+      "teachers": [
+        "#231"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "c212b9172c6f0c9f",
+      "start": "2026-06-30T10:25:00",
+      "end": "2026-06-30T11:15:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#e74c3c",
+      "teachers": [
+        "#231"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "5dfda890bcd691f1",
+      "start": "2026-06-30T11:25:00",
+      "end": "2026-06-30T12:15:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "5682114ed3d780da",
+      "start": "2026-06-30T12:15:00",
+      "end": "2026-06-30T13:05:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "ENWS",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#283"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "4ede1eb5574757cf",
+      "start": "2026-07-01T07:40:00",
+      "end": "2026-07-01T08:30:00",
+      "subject_raw": "GEO",
+      "subject_canonical": "GEO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#198"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "0b61d161fadf8249",
+      "start": "2026-07-01T08:30:00",
+      "end": "2026-07-01T09:20:00",
+      "subject_raw": "GEO",
+      "subject_canonical": "GEO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#198"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "bf4b821a3fd064d7",
+      "start": "2026-07-01T09:35:00",
+      "end": "2026-07-01T10:25:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "5bf22fbecdffb65f",
+      "start": "2026-07-01T10:25:00",
+      "end": "2026-07-01T11:15:00",
+      "subject_raw": "APR",
+      "subject_canonical": "APR",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#204"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "58d2e4dd12b6602f",
+      "start": "2026-07-01T11:25:00",
+      "end": "2026-07-01T12:15:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "57b6f02112d17142",
+      "start": "2026-07-01T12:15:00",
+      "end": "2026-07-01T13:05:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "UNCO",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#213"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    }
+  ]
+}
