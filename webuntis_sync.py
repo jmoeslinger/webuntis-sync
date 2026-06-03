@@ -120,21 +120,72 @@ class Lesson:
     original_rooms: list[str]
 
 
+def _names_from_attr(period, attr_name: str, raw_key: str) -> list[str]:
+    """Liest period.<attr> (z.B. period.teachers). Wenn das einen
+    Permission-Fehler wirft (haeufig bei Schueler-Accounts ohne Recht
+    fuer getTeachers/getRooms/...), faellt es auf die rohen Period-Daten
+    zurueck — dann gibt's IDs statt Namen, aber kein Crash."""
+    try:
+        items = getattr(period, attr_name)
+        if not items:
+            return []
+        return [_extract_name(i) for i in items]
+    except Exception:
+        try:
+            raw_list = period._data.get(raw_key, []) or []
+        except Exception:
+            return []
+        return [_extract_raw_name(r) for r in raw_list]
+
+
+def _extract_name(item) -> str:
+    for a in ("name", "longname"):
+        v = getattr(item, a, None)
+        if v:
+            return str(v)
+    iid = getattr(item, "id", None)
+    return f"#{iid}" if iid is not None else "?"
+
+
+def _extract_raw_name(raw: dict) -> str:
+    for k in ("name", "longname"):
+        if raw.get(k):
+            return str(raw[k])
+    iid = raw.get("id")
+    return f"#{iid}" if iid is not None else "?"
+
+
+def _original_names(period, attr_name: str, raw_key: str,
+                    orgid_key: str) -> list[str]:
+    """Ursprueglicher Lehrer/Raum bei Vertretungen. Erst aus dem Lib-Objekt,
+    bei Permission-Error aus _data[raw_key][i][orgid_key]."""
+    try:
+        items = getattr(period, attr_name)
+        if not items:
+            return []
+        return [str(t.orgname) for t in items if getattr(t, "orgname", None)]
+    except Exception:
+        try:
+            raw_list = period._data.get(raw_key, []) or []
+        except Exception:
+            return []
+        return [f"#{r[orgid_key]}" for r in raw_list if r.get(orgid_key)]
+
+
 def fetch_lessons(session: webuntis.Session, start: dt.date, end: dt.date) -> list[Lesson]:
     """Holt den Stundenplan vom WebUntis-Server und mappt ihn auf Lesson."""
     timetable = session.my_timetable(start=start, end=end)
     lessons: list[Lesson] = []
     for period in timetable:
-        subject = ", ".join(s.name for s in period.subjects) if period.subjects else "?"
-        teachers = [t.name for t in period.teachers] if period.teachers else []
-        rooms = [r.name for r in period.rooms] if period.rooms else []
-        klassen = [k.name for k in period.klassen] if period.klassen else []
+        subjects_list = _names_from_attr(period, "subjects", "su")
+        subject = ", ".join(subjects_list) if subjects_list else "?"
+        teachers = _names_from_attr(period, "teachers", "te")
+        rooms = _names_from_attr(period, "rooms", "ro")
+        klassen = _names_from_attr(period, "klassen", "kl")
 
         # Originale (bei Vertretung): WebUntis liefert original_* nur wenn anders.
-        original_teachers = [t.orgname for t in period.teachers
-                             if getattr(t, "orgname", None)]
-        original_rooms = [r.orgname for r in period.rooms
-                          if getattr(r, "orgname", None)]
+        original_teachers = _original_names(period, "teachers", "te", "orgid")
+        original_rooms = _original_names(period, "rooms", "ro", "orgid")
 
         code = getattr(period, "code", "") or ""
         # In manchen WebUntis-Instanzen sind Klausuren ueber period.type erkennbar.
