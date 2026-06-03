@@ -35,8 +35,15 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Stage alle moeglichen Outputs (auch Loeschungen, falls ICS deaktiviert wurde)
-          git add -A stundenplan.json stundenplan.ics
+          # Pro Output-Datei einzeln staging — jede ist optional.
+          for f in stundenplan.json stundenplan.ics; do
+            if [ -e "$f" ]; then
+              git add "$f"
+            elif git ls-files --error-unmatch "$f" > /dev/null 2>&1; then
+              # Datei war frueher im Repo, jetzt nicht mehr -> Loeschung stagen
+              git rm "$f"
+            fi
+          done
           if git diff --cached --quiet; then
             echo "Keine Aenderungen am Stundenplan."
           else
