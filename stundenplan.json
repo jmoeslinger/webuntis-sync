@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-06-04T05:05:32.169871+00:00",
+  "schema_version": 2,
+  "generated_at": "2026-06-04T08:47:53.104226+00:00",
   "timezone": "Europe/Vienna",
   "school": {
     "name": "hakzell-hlpzell",
@@ -11,82 +11,131 @@
     "description": "Automatisch generiert aus WebUntis"
   },
   "subjects": {
-    "Mathematik": {
-      "color": "#3498db",
+    "Angewandtes Programmieren": {
+      "color": "#3498DB",
       "aliases": [
-        "M",
-        "Mathe",
-        "MAM",
-        "AM",
-        "Angewandte Mathematik"
+        "APR"
+      ]
+    },
+    "Bewegung und Sport": {
+      "color": "#27AE60",
+      "aliases": [
+        "BESPK",
+        "BSPK",
+        "LUM"
+      ]
+    },
+    "Betriebswirtschaft": {
+      "color": "#1F4E79",
+      "aliases": [
+        "BW",
+        "BWL",
+        "Betriebswirtschaftslehre"
       ]
     },
     "Deutsch": {
-      "color": "#e74c3c",
+      "color": "#C0392B",
       "aliases": [
         "D",
         "DEU"
       ]
     },
-    "Englisch": {
-      "color": "#f1c40f",
+    "Englische Wirtschaftssprache": {
+      "color": "#E67E22",
       "aliases": [
+        "ENWS",
         "E",
         "ENG",
-        "BE",
-        "Business English"
+        "BE"
       ]
     },
-    "Geschichte": {
-      "color": "#8e44ad",
+    "Geografie und Wirtschaftskunde": {
+      "color": "#16A085",
       "aliases": [
-        "GSK",
-        "GS",
+        "GEO",
         "GWK"
       ]
     },
-    "Sport": {
-      "color": "#2ecc71",
+    "Internet- und Content-Management": {
+      "color": "#00BCD4",
       "aliases": [
-        "BSPK",
-        "LUM",
-        "BEW"
+        "IMCM"
       ]
     },
-    "Betriebswirtschaft": {
-      "color": "#16a085",
+    "Mathematik": {
+      "color": "#5B4FE9",
       "aliases": [
-        "BW",
-        "BWL"
+        "MAM",
+        "M",
+        "Mathe",
+        "AM",
+        "Angewandte Mathematik"
       ]
     },
-    "Rechnungswesen": {
-      "color": "#1abc9c",
+    "Naturwissenschaften": {
+      "color": "#00838F",
       "aliases": [
+        "NW3",
+        "NW",
+        "NaWi",
+        "Biologie",
+        "Physik",
+        "Chemie"
+      ]
+    },
+    "Office Management": {
+      "color": "#F39C12",
+      "aliases": [
+        "OMAI"
+      ]
+    },
+    "Politische Bildung und Geschichte": {
+      "color": "#8E44AD",
+      "aliases": [
+        "PBGW",
+        "GSK",
+        "GS"
+      ]
+    },
+    "Religion (kath.)": {
+      "color": "#9B59B6",
+      "aliases": [
+        "RK"
+      ]
+    },
+    "Unternehmensrechnungen": {
+      "color": "#B71C5C",
+      "aliases": [
+        "UNCO",
         "RW",
-        "UNRW"
+        "UNRW",
+        "Rechnungswesen"
       ]
     },
     "Wirtschaftsinformatik": {
-      "color": "#34495e",
+      "color": "#0D47A1",
       "aliases": [
+        "WIDS",
         "WINF",
         "INF",
         "DV"
       ]
     }
   },
-  "default_color": "#95a5a6",
+  "default_color": "#95A5A6",
   "lessons": [
     {
-      "id": "d9f481b066192abd",
+      "id": "70ce928c018a87be",
       "start": "2026-05-28T07:40:00",
       "end": "2026-05-28T08:30:00",
       "subject_raw": "MAM",
       "subject_canonical": "Mathematik",
-      "subject_color": "#3498db",
+      "subject_color": "#5B4FE9",
       "teachers": [
-        "#288"
+        "ELLM"
+      ],
+      "teacher_names": [
+        "Viktoria Ellmauer, BSc"
       ],
       "rooms": [
         "R2BK"
@@ -97,18 +146,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "c8b34ddda3c2cdc1",
+      "id": "9fe87bf7df80bb57",
       "start": "2026-05-28T08:30:00",
       "end": "2026-05-28T09:20:00",
       "subject_raw": "MAM",
       "subject_canonical": "Mathematik",
-      "subject_color": "#3498db",
+      "subject_color": "#5B4FE9",
       "teachers": [
-        "#288"
+        "ELLM"
+      ],
+      "teacher_names": [
+        "Viktoria Ellmauer, BSc"
       ],
       "rooms": [
         "R2BK"
@@ -119,18 +172,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "1cb4899fe1334643",
+      "id": "35da838ebc74be13",
       "start": "2026-05-28T09:35:00",
       "end": "2026-05-28T13:05:00",
       "subject_raw": "?",
       "subject_canonical": "?",
-      "subject_color": "#95a5a6",
+      "subject_color": "#95A5A6",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [],
       "classes": [
@@ -139,18 +196,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "Exkursion Senoplast Piesendorf"
     },
     {
-      "id": "9692553c66546aed",
+      "id": "a92bcb81b7b3c362",
       "start": "2026-05-28T09:35:00",
       "end": "2026-05-28T10:25:00",
       "subject_raw": "NW3",
-      "subject_canonical": "NW3",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Naturwissenschaften",
+      "subject_color": "#00838F",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "NAWI"
@@ -161,18 +222,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "f6f6c0d2295a10ee",
+      "id": "25981607c245926e",
       "start": "2026-05-28T10:25:00",
       "end": "2026-05-28T11:15:00",
       "subject_raw": "NW3",
-      "subject_canonical": "NW3",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Naturwissenschaften",
+      "subject_color": "#00838F",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "NAWI"
@@ -183,18 +248,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "f4d5b955d983bf05",
+      "id": "57d58205b85472c3",
       "start": "2026-05-28T11:25:00",
       "end": "2026-05-28T12:15:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [
         "R2BK"
@@ -205,18 +274,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "8807bc9cdb28671d",
+      "id": "dff150ccc2f8b421",
       "start": "2026-05-28T12:15:00",
       "end": "2026-05-28T13:05:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [
         "R2BK"
@@ -227,18 +300,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "0ae35b0a43c02955",
+      "id": "7ddd0e051e20366c",
       "start": "2026-05-29T07:40:00",
       "end": "2026-05-29T08:30:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "R2BK"
@@ -249,18 +326,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "ba89e007cd8f2371",
+      "id": "b1626a8eb7e7d172",
       "start": "2026-05-29T08:30:00",
       "end": "2026-05-29T09:20:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "R2BK"
@@ -271,18 +352,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "29315f937f3f974a",
+      "id": "e634433327fb6f60",
       "start": "2026-05-29T09:35:00",
       "end": "2026-05-29T10:25:00",
       "subject_raw": "OMAI",
-      "subject_canonical": "OMAI",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Office Management",
+      "subject_color": "#F39C12",
       "teachers": [
-        "#168"
+        "EDEH"
+      ],
+      "teacher_names": [
+        "Mag. Harald Eder"
       ],
       "rooms": [
         "EDV2"
@@ -293,18 +378,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "4b1c607a61f2a666",
+      "id": "adf874dd0bb7cf1d",
       "start": "2026-05-29T10:25:00",
       "end": "2026-05-29T11:15:00",
       "subject_raw": "OMAI",
-      "subject_canonical": "OMAI",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Office Management",
+      "subject_color": "#F39C12",
       "teachers": [
-        "#168"
+        "EDEH"
+      ],
+      "teacher_names": [
+        "Mag. Harald Eder"
       ],
       "rooms": [
         "EDV2"
@@ -315,18 +404,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "4464a39b82587c6e",
+      "id": "9e31d4b645e159df",
       "start": "2026-05-29T11:25:00",
       "end": "2026-05-29T12:15:00",
       "subject_raw": "PBGW",
-      "subject_canonical": "PBGW",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Politische Bildung und Geschichte",
+      "subject_color": "#8E44AD",
       "teachers": [
-        "#165"
+        "BODN"
+      ],
+      "teacher_names": [
+        "Dr. Gudrun Bodner"
       ],
       "rooms": [
         "R2BK"
@@ -337,18 +430,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "48d51fb928d8cafb",
+      "id": "a046e698714806db",
       "start": "2026-05-29T12:15:00",
       "end": "2026-05-29T13:05:00",
       "subject_raw": "PBGW",
-      "subject_canonical": "PBGW",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Politische Bildung und Geschichte",
+      "subject_color": "#8E44AD",
       "teachers": [
-        "#165"
+        "BODN"
+      ],
+      "teacher_names": [
+        "Dr. Gudrun Bodner"
       ],
       "rooms": [
         "R2BK"
@@ -359,18 +456,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "a0e8aa0d9437f53e",
+      "id": "4f731a2e92074859",
       "start": "2026-06-01T07:40:00",
       "end": "2026-06-01T08:30:00",
       "subject_raw": "IMCM",
-      "subject_canonical": "IMCM",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Internet- und Content-Management",
+      "subject_color": "#00BCD4",
       "teachers": [
-        "#174"
+        "GRUB"
+      ],
+      "teacher_names": [
+        "MMag. Peter Gruber"
       ],
       "rooms": [
         "EDV3"
@@ -381,18 +482,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "d4194c83bf562888",
+      "id": "2c619af12df042a5",
       "start": "2026-06-01T08:30:00",
       "end": "2026-06-01T09:20:00",
       "subject_raw": "IMCM",
-      "subject_canonical": "IMCM",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Internet- und Content-Management",
+      "subject_color": "#00BCD4",
       "teachers": [
-        "#174"
+        "GRUB"
+      ],
+      "teacher_names": [
+        "MMag. Peter Gruber"
       ],
       "rooms": [
         "EDV3"
@@ -403,18 +508,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "ed24ebf8c204ab1f",
+      "id": "e9fb40bec4340380",
       "start": "2026-06-01T09:35:00",
       "end": "2026-06-01T10:25:00",
       "subject_raw": "WIDS",
-      "subject_canonical": "WIDS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Wirtschaftsinformatik",
+      "subject_color": "#0D47A1",
       "teachers": [
-        "#162"
+        "AIMI"
+      ],
+      "teacher_names": [
+        "Mag. Michael Aigner"
       ],
       "rooms": [
         "EDV2"
@@ -425,18 +534,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "d4e96237d6b01781",
+      "id": "a7fbf1d4f8769b16",
       "start": "2026-06-01T10:25:00",
       "end": "2026-06-01T11:15:00",
       "subject_raw": "WIDS",
-      "subject_canonical": "WIDS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Wirtschaftsinformatik",
+      "subject_color": "#0D47A1",
       "teachers": [
-        "#162"
+        "AIMI"
+      ],
+      "teacher_names": [
+        "Mag. Michael Aigner"
       ],
       "rooms": [
         "EDV2"
@@ -447,18 +560,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "434bc832cdd6b79e",
+      "id": "6c5510a600056047",
       "start": "2026-06-01T11:25:00",
       "end": "2026-06-01T12:15:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "TS1"
@@ -469,18 +586,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "Koppelung mit 2HLP"
     },
     {
-      "id": "e68b724757b5493f",
+      "id": "53717d86bdb0e884",
       "start": "2026-06-01T12:15:00",
       "end": "2026-06-01T13:05:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "TS1"
@@ -491,18 +612,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "Koppelung mit 2HLP"
     },
     {
-      "id": "9075a68d72764158",
+      "id": "2dcb4d3f4d375aa3",
       "start": "2026-06-01T13:40:00",
       "end": "2026-06-01T14:30:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -513,18 +638,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "28e74e9bf7841ba6",
+      "id": "29375224701974ef",
       "start": "2026-06-01T14:30:00",
       "end": "2026-06-01T15:20:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -535,18 +664,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "6681afd3a2956809",
+      "id": "33b6744c5ab4091f",
       "start": "2026-06-02T07:40:00",
       "end": "2026-06-02T08:30:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [
         "R2BK"
@@ -557,18 +690,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "4ddddfdb82b17dbf",
+      "id": "00fcd0d8fd42a36b",
       "start": "2026-06-02T07:40:00",
       "end": "2026-06-02T08:30:00",
       "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
       "teachers": [
-        "#225"
+        "SPIZ"
+      ],
+      "teacher_names": [
+        "Mag. Sabine Spitzer"
       ],
       "rooms": [
         "R2BK"
@@ -579,18 +716,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "b2e85029c032a97f",
+      "id": "b7e50396272522e0",
       "start": "2026-06-02T08:30:00",
       "end": "2026-06-02T09:20:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#216"
+        "SINN"
+      ],
+      "teacher_names": [
+        "Mag. Tanja Sinnhuber"
       ],
       "rooms": [
         "R2BK"
@@ -601,20 +742,26 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "original_teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "0d2db966e981a966",
+      "id": "4ee298fef9fc8a97",
       "start": "2026-06-02T09:35:00",
       "end": "2026-06-02T10:25:00",
       "subject_raw": "D",
       "subject_canonical": "Deutsch",
-      "subject_color": "#e74c3c",
+      "subject_color": "#C0392B",
       "teachers": [
-        "#231"
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
       ],
       "rooms": [
         "R2BK"
@@ -625,18 +772,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "5f36999264a6a05b",
+      "id": "20fc5340004dd832",
       "start": "2026-06-02T09:35:00",
       "end": "2026-06-02T10:25:00",
       "subject_raw": "WIDS",
-      "subject_canonical": "WIDS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Wirtschaftsinformatik",
+      "subject_color": "#0D47A1",
       "teachers": [
-        "#162"
+        "AIMI"
+      ],
+      "teacher_names": [
+        "Mag. Michael Aigner"
       ],
       "rooms": [
         "BWZ"
@@ -647,18 +798,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "f4521b18dda07272",
+      "id": "a876f71471c9bb36",
       "start": "2026-06-02T10:25:00",
       "end": "2026-06-02T11:15:00",
       "subject_raw": "D",
       "subject_canonical": "Deutsch",
-      "subject_color": "#e74c3c",
+      "subject_color": "#C0392B",
       "teachers": [
-        "#231"
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
       ],
       "rooms": [
         "R2BK"
@@ -669,18 +824,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "e8ad9ecd55059180",
+      "id": "88e8fe5dd9fc5c8c",
       "start": "2026-06-02T10:25:00",
       "end": "2026-06-02T11:15:00",
       "subject_raw": "WIDS",
-      "subject_canonical": "WIDS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Wirtschaftsinformatik",
+      "subject_color": "#0D47A1",
       "teachers": [
-        "#162"
+        "AIMI"
+      ],
+      "teacher_names": [
+        "Mag. Michael Aigner"
       ],
       "rooms": [
         "BWZ"
@@ -691,18 +850,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "00c1b8f24ea054c2",
+      "id": "7209b5116b84334d",
       "start": "2026-06-02T11:25:00",
       "end": "2026-06-02T13:40:00",
       "subject_raw": "?",
       "subject_canonical": "?",
-      "subject_color": "#95a5a6",
+      "subject_color": "#95A5A6",
       "teachers": [
-        "#283"
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
       ],
       "rooms": [
         "R5AK"
@@ -713,18 +876,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "Workshop traffic safety for you - WS Drogen - Beginn: 12:00 Uhr"
     },
     {
-      "id": "d6248d197f6a14e3",
+      "id": "f15a145aaf1478a8",
       "start": "2026-06-02T11:25:00",
       "end": "2026-06-02T12:15:00",
       "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
       "teachers": [
-        "#283"
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
       ],
       "rooms": [
         "R2BK"
@@ -735,18 +902,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "20a4e3391f8049e9",
+      "id": "760abe32a3b9f625",
       "start": "2026-06-02T12:15:00",
       "end": "2026-06-02T13:05:00",
       "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
       "teachers": [
-        "#283"
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
       ],
       "rooms": [
         "R2BK"
@@ -757,18 +928,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "4140dde0584a85ea",
+      "id": "d9ec143714e2607f",
       "start": "2026-06-02T13:40:00",
       "end": "2026-06-02T14:30:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "R5AK"
@@ -779,18 +954,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "Workshop traffic safety for you - WS Drogen"
     },
     {
-      "id": "6489dd5d694696c5",
+      "id": "2c92e8391f550897",
       "start": "2026-06-02T14:30:00",
       "end": "2026-06-02T15:20:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "R5AK"
@@ -801,18 +980,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "Workshop traffic safety for you - WS Drogen"
     },
     {
-      "id": "e72cfd35fccac45e",
+      "id": "9d1e01174211c9a2",
       "start": "2026-06-03T07:40:00",
       "end": "2026-06-03T08:30:00",
       "subject_raw": "GEO",
-      "subject_canonical": "GEO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Geografie und Wirtschaftskunde",
+      "subject_color": "#16A085",
       "teachers": [
-        "#198"
+        "NIND"
+      ],
+      "teacher_names": [
+        "Mag. Miriam Nindl-Scharler"
       ],
       "rooms": [
         "R2BK"
@@ -823,18 +1006,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "b5f01b445abd2452",
+      "id": "da1a2a9dab6e94f8",
       "start": "2026-06-03T08:30:00",
       "end": "2026-06-03T09:20:00",
       "subject_raw": "GEO",
-      "subject_canonical": "GEO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Geografie und Wirtschaftskunde",
+      "subject_color": "#16A085",
       "teachers": [
-        "#198"
+        "NIND"
+      ],
+      "teacher_names": [
+        "Mag. Miriam Nindl-Scharler"
       ],
       "rooms": [
         "R2BK"
@@ -845,18 +1032,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "0f5e0d74e4042f0c",
+      "id": "035d0e83348bff29",
       "start": "2026-06-03T09:35:00",
       "end": "2026-06-03T10:25:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -867,18 +1058,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "89dc26f6f94c8145",
+      "id": "2ea36095fe5bfc95",
       "start": "2026-06-03T10:25:00",
       "end": "2026-06-03T11:15:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -889,18 +1084,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "b36e2373de443c93",
+      "id": "9239f19a04bd488a",
       "start": "2026-06-03T11:25:00",
       "end": "2026-06-03T12:15:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "EDV2"
@@ -911,18 +1110,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "a3ba5ad84c80734b",
+      "id": "3465e956ecd1b9fa",
       "start": "2026-06-03T12:15:00",
       "end": "2026-06-03T13:05:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "EDV2"
@@ -933,18 +1136,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "762c2c4bd04cceb2",
+      "id": "fe280075e81ffce1",
       "start": "2026-06-08T07:40:00",
       "end": "2026-06-08T08:30:00",
       "subject_raw": "IMCM",
-      "subject_canonical": "IMCM",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Internet- und Content-Management",
+      "subject_color": "#00BCD4",
       "teachers": [
-        "#174"
+        "GRUB"
+      ],
+      "teacher_names": [
+        "MMag. Peter Gruber"
       ],
       "rooms": [
         "R2BK"
@@ -955,18 +1162,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "cf0b52e30905c363",
+      "id": "d2fe7ca90ebe7892",
       "start": "2026-06-08T08:30:00",
       "end": "2026-06-08T09:20:00",
       "subject_raw": "IMCM",
-      "subject_canonical": "IMCM",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Internet- und Content-Management",
+      "subject_color": "#00BCD4",
       "teachers": [
-        "#174"
+        "GRUB"
+      ],
+      "teacher_names": [
+        "MMag. Peter Gruber"
       ],
       "rooms": [
         "R2BK"
@@ -977,18 +1188,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "515f2fc7893715b1",
+      "id": "584ddd0f1f149e64",
       "start": "2026-06-08T09:35:00",
       "end": "2026-06-08T10:25:00",
       "subject_raw": "WIDS",
-      "subject_canonical": "WIDS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Wirtschaftsinformatik",
+      "subject_color": "#0D47A1",
       "teachers": [
-        "#162"
+        "AIMI"
+      ],
+      "teacher_names": [
+        "Mag. Michael Aigner"
       ],
       "rooms": [
         "EDV2"
@@ -999,18 +1214,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "183d86b2397846d6",
+      "id": "562b77a8e428e3ca",
       "start": "2026-06-08T10:25:00",
       "end": "2026-06-08T11:15:00",
       "subject_raw": "WIDS",
-      "subject_canonical": "WIDS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Wirtschaftsinformatik",
+      "subject_color": "#0D47A1",
       "teachers": [
-        "#162"
+        "AIMI"
+      ],
+      "teacher_names": [
+        "Mag. Michael Aigner"
       ],
       "rooms": [
         "EDV2"
@@ -1021,18 +1240,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "23adaa6782cdf9e3",
+      "id": "b37cb344dd49b4e1",
       "start": "2026-06-08T11:25:00",
       "end": "2026-06-08T12:15:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "TS1"
@@ -1043,18 +1266,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "Koppelung mit 2HLP"
     },
     {
-      "id": "bb77142c745647e8",
+      "id": "51ebac7efce844bd",
       "start": "2026-06-08T12:15:00",
       "end": "2026-06-08T13:05:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "TS1"
@@ -1065,18 +1292,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "Koppelung mit 2HLP"
     },
     {
-      "id": "608b304b252ffe5e",
+      "id": "a5b6535587f6a4b2",
       "start": "2026-06-09T07:40:00",
       "end": "2026-06-09T08:30:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [
         "R2BK"
@@ -1087,18 +1318,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "80a66925eb6e86ae",
+      "id": "a3fe4dd24e11e66e",
       "start": "2026-06-09T08:30:00",
       "end": "2026-06-09T09:20:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [
         "R2BK"
@@ -1109,18 +1344,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "44ac7871c53571fe",
+      "id": "6eb8a425cb5a2ce2",
       "start": "2026-06-09T09:35:00",
       "end": "2026-06-09T10:25:00",
       "subject_raw": "D",
       "subject_canonical": "Deutsch",
-      "subject_color": "#e74c3c",
+      "subject_color": "#C0392B",
       "teachers": [
-        "#231"
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
       ],
       "rooms": [
         "R2BK"
@@ -1131,18 +1370,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "6a940579c8d95a7d",
+      "id": "9f6e967f97dcf8c5",
       "start": "2026-06-09T10:25:00",
       "end": "2026-06-09T11:15:00",
       "subject_raw": "D",
       "subject_canonical": "Deutsch",
-      "subject_color": "#e74c3c",
+      "subject_color": "#C0392B",
       "teachers": [
-        "#231"
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
       ],
       "rooms": [
         "R2BK"
@@ -1153,18 +1396,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "85d4dc7d923be8ca",
+      "id": "f048b0b084b7289c",
       "start": "2026-06-09T11:25:00",
       "end": "2026-06-09T12:15:00",
       "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
       "teachers": [
-        "#283"
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
       ],
       "rooms": [
         "R2BK"
@@ -1175,18 +1422,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "4470fbfda5fe4db8",
+      "id": "c29f50af78d20175",
       "start": "2026-06-09T12:15:00",
       "end": "2026-06-09T13:05:00",
       "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
       "teachers": [
-        "#283"
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
       ],
       "rooms": [
         "R2BK"
@@ -1197,18 +1448,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "798cd60f7ecad0dc",
+      "id": "493be3fdc85a7481",
       "start": "2026-06-10T07:40:00",
       "end": "2026-06-10T08:30:00",
       "subject_raw": "GEO",
-      "subject_canonical": "GEO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Geografie und Wirtschaftskunde",
+      "subject_color": "#16A085",
       "teachers": [
-        "#198"
+        "NIND"
+      ],
+      "teacher_names": [
+        "Mag. Miriam Nindl-Scharler"
       ],
       "rooms": [
         "R2BK"
@@ -1219,18 +1474,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "5516fbf9ece1cf32",
+      "id": "cf63b562ebf32820",
       "start": "2026-06-10T08:30:00",
       "end": "2026-06-10T09:20:00",
       "subject_raw": "GEO",
-      "subject_canonical": "GEO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Geografie und Wirtschaftskunde",
+      "subject_color": "#16A085",
       "teachers": [
-        "#198"
+        "NIND"
+      ],
+      "teacher_names": [
+        "Mag. Miriam Nindl-Scharler"
       ],
       "rooms": [
         "R2BK"
@@ -1241,18 +1500,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "c0eeeb082415a728",
+      "id": "bcf057bb72463d31",
       "start": "2026-06-10T09:35:00",
       "end": "2026-06-10T10:25:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -1263,18 +1526,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "859ea5494fcff3eb",
+      "id": "fcf8a3221ee03cf7",
       "start": "2026-06-10T10:25:00",
       "end": "2026-06-10T11:15:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -1285,18 +1552,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "c3cd28b950071dba",
+      "id": "86b1ca50e77770a6",
       "start": "2026-06-10T11:25:00",
       "end": "2026-06-10T12:15:00",
       "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
       "teachers": [
-        "#283"
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
       ],
       "rooms": [
         "R2BK"
@@ -1307,18 +1578,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "5452fefc1b48a90a",
+      "id": "d882d2d491acee88",
       "start": "2026-06-10T11:25:00",
       "end": "2026-06-10T12:15:00",
       "subject_raw": "PBGW",
-      "subject_canonical": "PBGW",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Politische Bildung und Geschichte",
+      "subject_color": "#8E44AD",
       "teachers": [
-        "#165"
+        "BODN"
+      ],
+      "teacher_names": [
+        "Dr. Gudrun Bodner"
       ],
       "rooms": [
         "R2BK"
@@ -1329,18 +1604,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "b0ead408ed673c5e",
+      "id": "18ad478446eff5bc",
       "start": "2026-06-10T12:15:00",
       "end": "2026-06-10T13:05:00",
       "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
       "teachers": [
-        "#283"
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
       ],
       "rooms": [
         "R2BK"
@@ -1351,18 +1630,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "672f3f6c1a1b9f08",
+      "id": "66c295f7b26308bd",
       "start": "2026-06-10T12:15:00",
       "end": "2026-06-10T13:05:00",
       "subject_raw": "PBGW",
-      "subject_canonical": "PBGW",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Politische Bildung und Geschichte",
+      "subject_color": "#8E44AD",
       "teachers": [
-        "#165"
+        "BODN"
+      ],
+      "teacher_names": [
+        "Dr. Gudrun Bodner"
       ],
       "rooms": [
         "R2BK"
@@ -1373,18 +1656,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "41ddaee5f3637f60",
+      "id": "a966e594cce10e07",
       "start": "2026-06-10T13:40:00",
       "end": "2026-06-10T14:30:00",
       "subject_raw": "RK",
-      "subject_canonical": "RK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Religion (kath.)",
+      "subject_color": "#9B59B6",
       "teachers": [
-        "#255"
+        "KRAN"
+      ],
+      "teacher_names": [
+        "Sandra Kranawendter, MEd"
       ],
       "rooms": [
         "R2AK"
@@ -1395,18 +1682,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "9f8f4b86ea4f2351",
+      "id": "15a9c2aa4df87910",
       "start": "2026-06-10T14:30:00",
       "end": "2026-06-10T15:20:00",
       "subject_raw": "RK",
-      "subject_canonical": "RK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Religion (kath.)",
+      "subject_color": "#9B59B6",
       "teachers": [
-        "#255"
+        "KRAN"
+      ],
+      "teacher_names": [
+        "Sandra Kranawendter, MEd"
       ],
       "rooms": [
         "R2AK"
@@ -1417,18 +1708,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "bc36878af328873d",
+      "id": "85d2e78b965fbb8a",
       "start": "2026-06-11T07:40:00",
       "end": "2026-06-11T08:30:00",
       "subject_raw": "MAM",
       "subject_canonical": "Mathematik",
-      "subject_color": "#3498db",
+      "subject_color": "#5B4FE9",
       "teachers": [
-        "#288"
+        "ELLM"
+      ],
+      "teacher_names": [
+        "Viktoria Ellmauer, BSc"
       ],
       "rooms": [
         "R2BK"
@@ -1439,18 +1734,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "883a420a52d8a12b",
+      "id": "a321b0f28f94d465",
       "start": "2026-06-11T08:30:00",
       "end": "2026-06-11T09:20:00",
       "subject_raw": "MAM",
       "subject_canonical": "Mathematik",
-      "subject_color": "#3498db",
+      "subject_color": "#5B4FE9",
       "teachers": [
-        "#288"
+        "ELLM"
+      ],
+      "teacher_names": [
+        "Viktoria Ellmauer, BSc"
       ],
       "rooms": [
         "R2BK"
@@ -1461,18 +1760,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "6694afc60fd412dc",
+      "id": "bdb7a78bbc11b489",
       "start": "2026-06-11T09:35:00",
       "end": "2026-06-11T10:25:00",
       "subject_raw": "NW3",
-      "subject_canonical": "NW3",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Naturwissenschaften",
+      "subject_color": "#00838F",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "NAWI"
@@ -1483,18 +1786,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "e1ef89ce4be27d6e",
+      "id": "cc3cef46560b4c41",
       "start": "2026-06-11T10:25:00",
       "end": "2026-06-11T11:15:00",
       "subject_raw": "NW3",
-      "subject_canonical": "NW3",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Naturwissenschaften",
+      "subject_color": "#00838F",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "NAWI"
@@ -1505,18 +1812,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "f73a1fe4e2cbeb70",
+      "id": "17407f35ca697349",
       "start": "2026-06-11T11:25:00",
       "end": "2026-06-11T12:15:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [
         "R2BK"
@@ -1527,18 +1838,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "b01c28b057b3a5f5",
+      "id": "7b2bb09246590e8f",
       "start": "2026-06-11T11:25:00",
       "end": "2026-06-11T12:15:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "EDV3"
@@ -1549,18 +1864,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "66b60d155e5b9334",
+      "id": "19aa62774e96864d",
       "start": "2026-06-11T12:15:00",
       "end": "2026-06-11T13:05:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [
         "R2BK"
@@ -1571,18 +1890,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "d903787fc04e2e5c",
+      "id": "44b7bbf5e6ef76ce",
       "start": "2026-06-11T12:15:00",
       "end": "2026-06-11T13:05:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "EDV3"
@@ -1593,18 +1916,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "4259e0a1fd90dcd7",
+      "id": "05000612f3e312a3",
       "start": "2026-06-12T07:40:00",
       "end": "2026-06-12T08:30:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "R2BK"
@@ -1615,18 +1942,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "0865dd0d4692ccd4",
+      "id": "72c3f127c327455b",
       "start": "2026-06-12T08:30:00",
       "end": "2026-06-12T09:20:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "R2BK"
@@ -1637,18 +1968,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "67997308bd75a45a",
+      "id": "539e8bcf4e340ccb",
       "start": "2026-06-12T09:35:00",
       "end": "2026-06-12T10:25:00",
       "subject_raw": "OMAI",
-      "subject_canonical": "OMAI",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Office Management",
+      "subject_color": "#F39C12",
       "teachers": [
-        "#168"
+        "EDEH"
+      ],
+      "teacher_names": [
+        "Mag. Harald Eder"
       ],
       "rooms": [
         "EDV3"
@@ -1659,18 +1994,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "097985bdd17868ab",
+      "id": "dc04a797262f48ea",
       "start": "2026-06-12T10:25:00",
       "end": "2026-06-12T11:15:00",
       "subject_raw": "OMAI",
-      "subject_canonical": "OMAI",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Office Management",
+      "subject_color": "#F39C12",
       "teachers": [
-        "#168"
+        "EDEH"
+      ],
+      "teacher_names": [
+        "Mag. Harald Eder"
       ],
       "rooms": [
         "EDV3"
@@ -1681,18 +2020,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "fc4c98c951c3fce3",
+      "id": "e8b5c958b5900287",
       "start": "2026-06-12T11:25:00",
       "end": "2026-06-12T12:15:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "TS1"
@@ -1703,18 +2046,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "24.11. / 3 (Unt.: 501)"
     },
     {
-      "id": "985628f533f05f60",
+      "id": "536bedbbac001619",
       "start": "2026-06-12T11:25:00",
       "end": "2026-06-12T12:15:00",
       "subject_raw": "PBGW",
-      "subject_canonical": "PBGW",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Politische Bildung und Geschichte",
+      "subject_color": "#8E44AD",
       "teachers": [
-        "#165"
+        "BODN"
+      ],
+      "teacher_names": [
+        "Dr. Gudrun Bodner"
       ],
       "rooms": [
         "R2BK"
@@ -1725,18 +2072,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "24.11. / 3 (Unt.: 501)"
     },
     {
-      "id": "0bd13691a8588fb6",
+      "id": "11a9f2fd4867ca84",
       "start": "2026-06-12T12:15:00",
       "end": "2026-06-12T13:05:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "TS1"
@@ -1747,18 +2098,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "24.11. / 4 (Unt.: 501)"
     },
     {
-      "id": "517d453082392c9a",
+      "id": "d8edf8ba8c2f2413",
       "start": "2026-06-12T12:15:00",
       "end": "2026-06-12T13:05:00",
       "subject_raw": "PBGW",
-      "subject_canonical": "PBGW",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Politische Bildung und Geschichte",
+      "subject_color": "#8E44AD",
       "teachers": [
-        "#165"
+        "BODN"
+      ],
+      "teacher_names": [
+        "Dr. Gudrun Bodner"
       ],
       "rooms": [
         "R2BK"
@@ -1769,18 +2124,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "24.11. / 4 (Unt.: 501)"
     },
     {
-      "id": "a3c7a8a070c2ce47",
+      "id": "6c39eaa0db9b9421",
       "start": "2026-06-12T13:40:00",
       "end": "2026-06-12T14:30:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "TS1"
@@ -1791,18 +2150,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "16.2. / 5 (Unt.: 367)"
     },
     {
-      "id": "b538a6a126ad21fa",
+      "id": "e957ddde68cc5c32",
       "start": "2026-06-12T14:30:00",
       "end": "2026-06-12T15:20:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "TS1"
@@ -1813,18 +2176,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "16.2. / 6 (Unt.: 367)"
     },
     {
-      "id": "65a7e18e40695d22",
+      "id": "4ce19a9ddc3b0a33",
       "start": "2026-06-15T07:40:00",
       "end": "2026-06-15T08:30:00",
       "subject_raw": "IMCM",
-      "subject_canonical": "IMCM",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Internet- und Content-Management",
+      "subject_color": "#00BCD4",
       "teachers": [
-        "#174"
+        "GRUB"
+      ],
+      "teacher_names": [
+        "MMag. Peter Gruber"
       ],
       "rooms": [
         "R2BK"
@@ -1835,18 +2202,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "11d1b6fc01bee747",
+      "id": "7d72598cab9c5277",
       "start": "2026-06-15T08:30:00",
       "end": "2026-06-15T09:20:00",
       "subject_raw": "IMCM",
-      "subject_canonical": "IMCM",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Internet- und Content-Management",
+      "subject_color": "#00BCD4",
       "teachers": [
-        "#174"
+        "GRUB"
+      ],
+      "teacher_names": [
+        "MMag. Peter Gruber"
       ],
       "rooms": [
         "R2BK"
@@ -1857,18 +2228,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "ccf3a37dcf0837ff",
+      "id": "eabc2bf630f93f12",
       "start": "2026-06-15T09:35:00",
       "end": "2026-06-15T10:25:00",
       "subject_raw": "WIDS",
-      "subject_canonical": "WIDS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Wirtschaftsinformatik",
+      "subject_color": "#0D47A1",
       "teachers": [
-        "#162"
+        "AIMI"
+      ],
+      "teacher_names": [
+        "Mag. Michael Aigner"
       ],
       "rooms": [
         "EDV2"
@@ -1879,18 +2254,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "d9e0154971a1065f",
+      "id": "f6efe320a04da6a1",
       "start": "2026-06-15T10:25:00",
       "end": "2026-06-15T11:15:00",
       "subject_raw": "WIDS",
-      "subject_canonical": "WIDS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Wirtschaftsinformatik",
+      "subject_color": "#0D47A1",
       "teachers": [
-        "#162"
+        "AIMI"
+      ],
+      "teacher_names": [
+        "Mag. Michael Aigner"
       ],
       "rooms": [
         "EDV2"
@@ -1901,18 +2280,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "79eba93790cad80b",
+      "id": "e367839afe497add",
       "start": "2026-06-15T11:25:00",
       "end": "2026-06-15T12:15:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "TS1"
@@ -1923,18 +2306,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "Koppelung mit 2HLP"
     },
     {
-      "id": "3d9c09141f91d2e3",
+      "id": "ccd60222631f85f3",
       "start": "2026-06-15T12:15:00",
       "end": "2026-06-15T13:05:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "TS1"
@@ -1945,18 +2332,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "Koppelung mit 2HLP"
     },
     {
-      "id": "06ac52f6f43867ed",
+      "id": "303cca2aadb16c1a",
       "start": "2026-06-15T13:40:00",
       "end": "2026-06-15T14:30:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -1967,18 +2358,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "95c53ab16611a1f8",
+      "id": "17f22a464306ee80",
       "start": "2026-06-15T14:30:00",
       "end": "2026-06-15T15:20:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -1989,18 +2384,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "b5c6c4627ce4bd14",
+      "id": "1267dbe9a82b5172",
       "start": "2026-06-16T07:40:00",
       "end": "2026-06-16T08:30:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [
         "R2BK"
@@ -2011,18 +2410,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "d5e470f83ecac03f",
+      "id": "c1c47f9ac571c6d9",
       "start": "2026-06-16T08:30:00",
       "end": "2026-06-16T09:20:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [
         "R2BK"
@@ -2033,18 +2436,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "de915c281bc98df5",
+      "id": "9087c15f106a4965",
       "start": "2026-06-16T09:35:00",
       "end": "2026-06-16T10:25:00",
       "subject_raw": "D",
       "subject_canonical": "Deutsch",
-      "subject_color": "#e74c3c",
+      "subject_color": "#C0392B",
       "teachers": [
-        "#231"
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
       ],
       "rooms": [
         "R2BK"
@@ -2055,18 +2462,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "0cabcf5be185840a",
+      "id": "6f460973a9d5a6d5",
       "start": "2026-06-16T10:25:00",
       "end": "2026-06-16T11:15:00",
       "subject_raw": "D",
       "subject_canonical": "Deutsch",
-      "subject_color": "#e74c3c",
+      "subject_color": "#C0392B",
       "teachers": [
-        "#231"
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
       ],
       "rooms": [
         "R2BK"
@@ -2077,18 +2488,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "f256b9b3af44eca7",
+      "id": "5d31793a5a43b862",
       "start": "2026-06-16T11:25:00",
       "end": "2026-06-16T12:15:00",
       "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
       "teachers": [
-        "#283"
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
       ],
       "rooms": [
         "R2BK"
@@ -2099,18 +2514,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "0c877b8fcc8bd7e5",
+      "id": "df157aab3bce65ff",
       "start": "2026-06-16T12:15:00",
       "end": "2026-06-16T13:05:00",
       "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
       "teachers": [
-        "#283"
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
       ],
       "rooms": [
         "R2BK"
@@ -2121,18 +2540,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "8015bcb1c9c7d7ae",
+      "id": "e30e4351fd0a1f5b",
       "start": "2026-06-17T07:40:00",
       "end": "2026-06-17T08:30:00",
       "subject_raw": "GEO",
-      "subject_canonical": "GEO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Geografie und Wirtschaftskunde",
+      "subject_color": "#16A085",
       "teachers": [
-        "#198"
+        "NIND"
+      ],
+      "teacher_names": [
+        "Mag. Miriam Nindl-Scharler"
       ],
       "rooms": [
         "R2BK"
@@ -2143,18 +2566,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "2eb2521f4989873b",
+      "id": "588763339cbaee71",
       "start": "2026-06-17T08:30:00",
       "end": "2026-06-17T09:20:00",
       "subject_raw": "GEO",
-      "subject_canonical": "GEO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Geografie und Wirtschaftskunde",
+      "subject_color": "#16A085",
       "teachers": [
-        "#198"
+        "NIND"
+      ],
+      "teacher_names": [
+        "Mag. Miriam Nindl-Scharler"
       ],
       "rooms": [
         "R2BK"
@@ -2165,18 +2592,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "0d324252137c88ab",
+      "id": "5e49bf52f9f7b711",
       "start": "2026-06-17T09:35:00",
       "end": "2026-06-17T10:25:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -2187,18 +2618,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "3a0131020f485070",
+      "id": "fb8432abc2adc5d5",
       "start": "2026-06-17T10:25:00",
       "end": "2026-06-17T11:15:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -2209,18 +2644,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "724ca6f6343abb46",
+      "id": "51110d50b9bd656b",
       "start": "2026-06-17T11:25:00",
       "end": "2026-06-17T12:15:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "EDV2"
@@ -2231,18 +2670,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "aa5da872ae0310f0",
+      "id": "a5da0bd108828782",
       "start": "2026-06-17T12:15:00",
       "end": "2026-06-17T13:05:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "EDV2"
@@ -2253,18 +2696,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "6860c90d37005a19",
+      "id": "f01664d372b7489d",
       "start": "2026-06-18T07:40:00",
       "end": "2026-06-18T08:30:00",
       "subject_raw": "MAM",
       "subject_canonical": "Mathematik",
-      "subject_color": "#3498db",
+      "subject_color": "#5B4FE9",
       "teachers": [
-        "#288"
+        "ELLM"
+      ],
+      "teacher_names": [
+        "Viktoria Ellmauer, BSc"
       ],
       "rooms": [
         "R2BK"
@@ -2275,18 +2722,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "994d9e9b5aece623",
+      "id": "2da65c4abae7034c",
       "start": "2026-06-18T08:30:00",
       "end": "2026-06-18T09:20:00",
       "subject_raw": "MAM",
       "subject_canonical": "Mathematik",
-      "subject_color": "#3498db",
+      "subject_color": "#5B4FE9",
       "teachers": [
-        "#288"
+        "ELLM"
+      ],
+      "teacher_names": [
+        "Viktoria Ellmauer, BSc"
       ],
       "rooms": [
         "R2BK"
@@ -2297,18 +2748,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "a60112145529b039",
+      "id": "50e05f4e345e5852",
       "start": "2026-06-18T09:35:00",
       "end": "2026-06-18T10:25:00",
       "subject_raw": "NW3",
-      "subject_canonical": "NW3",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Naturwissenschaften",
+      "subject_color": "#00838F",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "NAWI"
@@ -2319,18 +2774,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "fe11e8611e2a8255",
+      "id": "ac4b04eb0db53405",
       "start": "2026-06-18T10:25:00",
       "end": "2026-06-18T11:15:00",
       "subject_raw": "NW3",
-      "subject_canonical": "NW3",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Naturwissenschaften",
+      "subject_color": "#00838F",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "NAWI"
@@ -2341,18 +2800,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "2b66fd11b18289e3",
+      "id": "cb9c1e95e182e613",
       "start": "2026-06-18T11:25:00",
       "end": "2026-06-18T12:15:00",
       "subject_raw": "D",
       "subject_canonical": "Deutsch",
-      "subject_color": "#e74c3c",
+      "subject_color": "#C0392B",
       "teachers": [
-        "#231"
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
       ],
       "rooms": [
         "R2BK"
@@ -2363,18 +2826,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "eaa3ffc401f344a0",
+      "id": "46f8c66f1293946f",
       "start": "2026-06-18T12:15:00",
       "end": "2026-06-18T13:05:00",
       "subject_raw": "D",
       "subject_canonical": "Deutsch",
-      "subject_color": "#e74c3c",
+      "subject_color": "#C0392B",
       "teachers": [
-        "#231"
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
       ],
       "rooms": [
         "R2BK"
@@ -2385,18 +2852,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "48bd3523cc1d89a3",
+      "id": "028e9a9bc1eadcd1",
       "start": "2026-06-19T07:40:00",
       "end": "2026-06-19T08:30:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "R2BK"
@@ -2407,18 +2878,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "b9893dfb21e26916",
+      "id": "05111ff309aa2859",
       "start": "2026-06-19T08:30:00",
       "end": "2026-06-19T09:20:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "R2BK"
@@ -2429,18 +2904,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "c48cb15500076d91",
+      "id": "8993470dec3f346e",
       "start": "2026-06-19T09:35:00",
       "end": "2026-06-19T10:25:00",
       "subject_raw": "OMAI",
-      "subject_canonical": "OMAI",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Office Management",
+      "subject_color": "#F39C12",
       "teachers": [
-        "#168"
+        "EDEH"
+      ],
+      "teacher_names": [
+        "Mag. Harald Eder"
       ],
       "rooms": [
         "EDV2"
@@ -2451,18 +2930,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "da0d44b984616937",
+      "id": "39f00a66c52d6dc8",
       "start": "2026-06-19T10:25:00",
       "end": "2026-06-19T11:15:00",
       "subject_raw": "OMAI",
-      "subject_canonical": "OMAI",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Office Management",
+      "subject_color": "#F39C12",
       "teachers": [
-        "#168"
+        "EDEH"
+      ],
+      "teacher_names": [
+        "Mag. Harald Eder"
       ],
       "rooms": [
         "EDV2"
@@ -2473,18 +2956,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "6082f4a7c07ed868",
+      "id": "57154672ad6f90ac",
       "start": "2026-06-22T07:40:00",
       "end": "2026-06-22T08:30:00",
       "subject_raw": "IMCM",
-      "subject_canonical": "IMCM",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Internet- und Content-Management",
+      "subject_color": "#00BCD4",
       "teachers": [
-        "#174"
+        "GRUB"
+      ],
+      "teacher_names": [
+        "MMag. Peter Gruber"
       ],
       "rooms": [
         "R2BK"
@@ -2495,18 +2982,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "05e3f9012b87090b",
+      "id": "5542ae409eb42f36",
       "start": "2026-06-22T08:30:00",
       "end": "2026-06-22T09:20:00",
       "subject_raw": "IMCM",
-      "subject_canonical": "IMCM",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Internet- und Content-Management",
+      "subject_color": "#00BCD4",
       "teachers": [
-        "#174"
+        "GRUB"
+      ],
+      "teacher_names": [
+        "MMag. Peter Gruber"
       ],
       "rooms": [
         "R2BK"
@@ -2517,18 +3008,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "0d8383790d04683b",
+      "id": "4862ba63ff4f96c2",
       "start": "2026-06-22T09:35:00",
       "end": "2026-06-22T10:25:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "R2BK"
@@ -2539,18 +3034,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "7825139c6b87a940",
+      "id": "dd3b766ebdce9f24",
       "start": "2026-06-22T09:35:00",
       "end": "2026-06-22T10:25:00",
       "subject_raw": "WIDS",
-      "subject_canonical": "WIDS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Wirtschaftsinformatik",
+      "subject_color": "#0D47A1",
       "teachers": [
-        "#162"
+        "AIMI"
+      ],
+      "teacher_names": [
+        "Mag. Michael Aigner"
       ],
       "rooms": [
         "EDV2"
@@ -2561,18 +3060,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "26facc26fc9573c2",
+      "id": "771e46a884d7c8bd",
       "start": "2026-06-22T10:25:00",
       "end": "2026-06-22T11:15:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "R2BK"
@@ -2583,18 +3086,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "49aa0aee3e9000ba",
+      "id": "a00868dc093c8490",
       "start": "2026-06-22T10:25:00",
       "end": "2026-06-22T11:15:00",
       "subject_raw": "WIDS",
-      "subject_canonical": "WIDS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Wirtschaftsinformatik",
+      "subject_color": "#0D47A1",
       "teachers": [
-        "#162"
+        "AIMI"
+      ],
+      "teacher_names": [
+        "Mag. Michael Aigner"
       ],
       "rooms": [
         "EDV2"
@@ -2605,18 +3112,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "2b99b4e8fc2bbc1b",
+      "id": "039819cea00d6f3c",
       "start": "2026-06-22T11:25:00",
       "end": "2026-06-22T12:15:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "TS1"
@@ -2627,18 +3138,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "Koppelung mit 2HLP"
     },
     {
-      "id": "e467ab9491a59122",
+      "id": "aeafed88b5ce29db",
       "start": "2026-06-22T12:15:00",
       "end": "2026-06-22T13:05:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "TS1"
@@ -2649,18 +3164,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "Koppelung mit 2HLP"
     },
     {
-      "id": "e0aac46418a74010",
+      "id": "b43d136314174073",
       "start": "2026-06-23T07:40:00",
       "end": "2026-06-23T08:30:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [
         "R2BK"
@@ -2671,18 +3190,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "de61aa4f67de930d",
+      "id": "99b97e1a92ad8c1b",
       "start": "2026-06-23T08:30:00",
       "end": "2026-06-23T09:20:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [
         "R2BK"
@@ -2693,18 +3216,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "2cb59437b3215ef8",
+      "id": "af8cb2c819c8999b",
       "start": "2026-06-23T09:35:00",
       "end": "2026-06-23T10:25:00",
       "subject_raw": "D",
       "subject_canonical": "Deutsch",
-      "subject_color": "#e74c3c",
+      "subject_color": "#C0392B",
       "teachers": [
-        "#231"
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
       ],
       "rooms": [
         "R2BK"
@@ -2715,18 +3242,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "a2b33b8f5ba3769b",
+      "id": "dccec4a078d12409",
       "start": "2026-06-23T10:25:00",
       "end": "2026-06-23T11:15:00",
       "subject_raw": "D",
       "subject_canonical": "Deutsch",
-      "subject_color": "#e74c3c",
+      "subject_color": "#C0392B",
       "teachers": [
-        "#231"
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
       ],
       "rooms": [
         "R2BK"
@@ -2737,18 +3268,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "e6c9d9d9bdee7303",
+      "id": "5a60fff92d06f8c6",
       "start": "2026-06-23T11:25:00",
       "end": "2026-06-23T12:15:00",
       "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
       "teachers": [
-        "#283"
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
       ],
       "rooms": [
         "R2BK"
@@ -2759,18 +3294,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "0744b94fb906b765",
+      "id": "14766e37b33207cd",
       "start": "2026-06-23T12:15:00",
       "end": "2026-06-23T13:05:00",
       "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
       "teachers": [
-        "#283"
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
       ],
       "rooms": [
         "R2BK"
@@ -2781,18 +3320,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "097b1144691b0dd6",
+      "id": "96ccb9aa648e1e75",
       "start": "2026-06-24T07:40:00",
       "end": "2026-06-24T08:30:00",
       "subject_raw": "GEO",
-      "subject_canonical": "GEO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Geografie und Wirtschaftskunde",
+      "subject_color": "#16A085",
       "teachers": [
-        "#198"
+        "NIND"
+      ],
+      "teacher_names": [
+        "Mag. Miriam Nindl-Scharler"
       ],
       "rooms": [
         "R2BK"
@@ -2803,18 +3346,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "27b83f80764cbef0",
+      "id": "d6d3c8f9ae91ad96",
       "start": "2026-06-24T08:30:00",
       "end": "2026-06-24T09:20:00",
       "subject_raw": "GEO",
-      "subject_canonical": "GEO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Geografie und Wirtschaftskunde",
+      "subject_color": "#16A085",
       "teachers": [
-        "#198"
+        "NIND"
+      ],
+      "teacher_names": [
+        "Mag. Miriam Nindl-Scharler"
       ],
       "rooms": [
         "R2BK"
@@ -2825,18 +3372,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "e3a9bfa8fc38ce82",
+      "id": "3b74a5aec97cfdf7",
       "start": "2026-06-24T09:35:00",
       "end": "2026-06-24T10:25:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -2847,18 +3398,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "d0292cdec0889ce6",
+      "id": "5ec322fc479cd246",
       "start": "2026-06-24T10:25:00",
       "end": "2026-06-24T11:15:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -2869,18 +3424,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "e42cc5e0ff43f3e5",
+      "id": "24d086b6feaf5359",
       "start": "2026-06-24T11:25:00",
       "end": "2026-06-24T12:15:00",
       "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
       "teachers": [
-        "#283"
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
       ],
       "rooms": [
         "R2BK"
@@ -2891,18 +3450,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "106c7cfe9ce1ca67",
+      "id": "97171b6704c466b1",
       "start": "2026-06-24T12:15:00",
       "end": "2026-06-24T13:05:00",
       "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
       "teachers": [
-        "#283"
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
       ],
       "rooms": [
         "R2BK"
@@ -2913,18 +3476,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "07790503b2144e70",
+      "id": "f427e360758667a4",
       "start": "2026-06-24T13:40:00",
       "end": "2026-06-24T14:30:00",
       "subject_raw": "RK",
-      "subject_canonical": "RK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Religion (kath.)",
+      "subject_color": "#9B59B6",
       "teachers": [
-        "#255"
+        "KRAN"
+      ],
+      "teacher_names": [
+        "Sandra Kranawendter, MEd"
       ],
       "rooms": [
         "R2AK"
@@ -2935,18 +3502,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "c5658a5e705d2b0a",
+      "id": "cc79ca2cdb52c600",
       "start": "2026-06-24T14:30:00",
       "end": "2026-06-24T15:20:00",
       "subject_raw": "RK",
-      "subject_canonical": "RK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Religion (kath.)",
+      "subject_color": "#9B59B6",
       "teachers": [
-        "#255"
+        "KRAN"
+      ],
+      "teacher_names": [
+        "Sandra Kranawendter, MEd"
       ],
       "rooms": [
         "R2AK"
@@ -2957,18 +3528,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "7622c57604d45463",
+      "id": "89c6c78f02cc9b5f",
       "start": "2026-06-25T07:40:00",
       "end": "2026-06-25T08:30:00",
       "subject_raw": "MAM",
       "subject_canonical": "Mathematik",
-      "subject_color": "#3498db",
+      "subject_color": "#5B4FE9",
       "teachers": [
-        "#288"
+        "ELLM"
+      ],
+      "teacher_names": [
+        "Viktoria Ellmauer, BSc"
       ],
       "rooms": [
         "R2BK"
@@ -2979,18 +3554,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "fdbc799ec8fdd45b",
+      "id": "91236f41870ff039",
       "start": "2026-06-25T08:30:00",
       "end": "2026-06-25T09:20:00",
       "subject_raw": "MAM",
       "subject_canonical": "Mathematik",
-      "subject_color": "#3498db",
+      "subject_color": "#5B4FE9",
       "teachers": [
-        "#288"
+        "ELLM"
+      ],
+      "teacher_names": [
+        "Viktoria Ellmauer, BSc"
       ],
       "rooms": [
         "R2BK"
@@ -3001,18 +3580,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "93f8fe8e22855c24",
+      "id": "fccb03e3425bfb38",
       "start": "2026-06-25T09:35:00",
       "end": "2026-06-25T10:25:00",
       "subject_raw": "NW3",
-      "subject_canonical": "NW3",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Naturwissenschaften",
+      "subject_color": "#00838F",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "NAWI"
@@ -3023,18 +3606,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "5143c09c3957936e",
+      "id": "8a07fd7b09f2bcb5",
       "start": "2026-06-25T10:25:00",
       "end": "2026-06-25T11:15:00",
       "subject_raw": "NW3",
-      "subject_canonical": "NW3",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Naturwissenschaften",
+      "subject_color": "#00838F",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "NAWI"
@@ -3045,18 +3632,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "9bb6ca90e69f7c96",
+      "id": "253574db73de8386",
       "start": "2026-06-25T11:25:00",
       "end": "2026-06-25T12:15:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [
         "R2BK"
@@ -3067,18 +3658,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "c238f5472187bd14",
+      "id": "a0ac5f45f167a854",
       "start": "2026-06-25T12:15:00",
       "end": "2026-06-25T13:05:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [
         "R2BK"
@@ -3089,18 +3684,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "9ba2de62d8db0459",
+      "id": "39d36c41a57075af",
       "start": "2026-06-26T07:40:00",
       "end": "2026-06-26T08:30:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "R2BK"
@@ -3111,18 +3710,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "a3d88332ccf8a396",
+      "id": "db31d478299b3165",
       "start": "2026-06-26T07:40:00",
       "end": "2026-06-26T08:30:00",
       "subject_raw": "PBGW",
-      "subject_canonical": "PBGW",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Politische Bildung und Geschichte",
+      "subject_color": "#8E44AD",
       "teachers": [
-        "#165"
+        "BODN"
+      ],
+      "teacher_names": [
+        "Dr. Gudrun Bodner"
       ],
       "rooms": [
         "R2BK"
@@ -3133,18 +3736,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "7f538fc8a1eb1ec6",
+      "id": "55fd69dcf469a51b",
       "start": "2026-06-26T08:30:00",
       "end": "2026-06-26T09:20:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "R2BK"
@@ -3155,18 +3762,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "e9ff65f9d6144a9c",
+      "id": "97a6f6cfe80de230",
       "start": "2026-06-26T08:30:00",
       "end": "2026-06-26T09:20:00",
       "subject_raw": "PBGW",
-      "subject_canonical": "PBGW",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Politische Bildung und Geschichte",
+      "subject_color": "#8E44AD",
       "teachers": [
-        "#165"
+        "BODN"
+      ],
+      "teacher_names": [
+        "Dr. Gudrun Bodner"
       ],
       "rooms": [
         "R2BK"
@@ -3177,18 +3788,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "86b6fc5878420bac",
+      "id": "5971ea7082d468ba",
       "start": "2026-06-26T09:35:00",
       "end": "2026-06-26T10:25:00",
       "subject_raw": "OMAI",
-      "subject_canonical": "OMAI",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Office Management",
+      "subject_color": "#F39C12",
       "teachers": [
-        "#168"
+        "EDEH"
+      ],
+      "teacher_names": [
+        "Mag. Harald Eder"
       ],
       "rooms": [
         "EDV2"
@@ -3199,18 +3814,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "ade98269a9d9a930",
+      "id": "964dda1b3497721b",
       "start": "2026-06-26T10:25:00",
       "end": "2026-06-26T11:15:00",
       "subject_raw": "OMAI",
-      "subject_canonical": "OMAI",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Office Management",
+      "subject_color": "#F39C12",
       "teachers": [
-        "#168"
+        "EDEH"
+      ],
+      "teacher_names": [
+        "Mag. Harald Eder"
       ],
       "rooms": [
         "EDV2"
@@ -3221,18 +3840,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "53b40b045b08ba7e",
+      "id": "c0e80f2bf5952fe6",
       "start": "2026-06-26T11:25:00",
       "end": "2026-06-26T12:15:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [],
       "classes": [
@@ -3241,18 +3864,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "v. 4.5. 5.+6."
     },
     {
-      "id": "fe7412c00e5844c2",
+      "id": "8e34aa125ed1c9e4",
       "start": "2026-06-26T11:25:00",
       "end": "2026-06-26T12:15:00",
       "subject_raw": "PBGW",
-      "subject_canonical": "PBGW",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Politische Bildung und Geschichte",
+      "subject_color": "#8E44AD",
       "teachers": [
-        "#165"
+        "BODN"
+      ],
+      "teacher_names": [
+        "Dr. Gudrun Bodner"
       ],
       "rooms": [
         "R2BK"
@@ -3263,18 +3890,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "fd7f48adc3c51ac6",
+      "id": "59c74b42779c96c1",
       "start": "2026-06-26T12:15:00",
       "end": "2026-06-26T13:05:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [],
       "classes": [
@@ -3283,18 +3914,22 @@
       "status": "additional",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "v. 4.5. 5.+6."
     },
     {
-      "id": "79eaaebe6a25f339",
+      "id": "8f0b18c39d4dabc2",
       "start": "2026-06-26T12:15:00",
       "end": "2026-06-26T13:05:00",
       "subject_raw": "PBGW",
-      "subject_canonical": "PBGW",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Politische Bildung und Geschichte",
+      "subject_color": "#8E44AD",
       "teachers": [
-        "#165"
+        "BODN"
+      ],
+      "teacher_names": [
+        "Dr. Gudrun Bodner"
       ],
       "rooms": [
         "R2BK"
@@ -3305,18 +3940,22 @@
       "status": "cancelled",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "fb3d97f2bb06ce32",
+      "id": "12997a5a35b1e611",
       "start": "2026-06-29T07:40:00",
       "end": "2026-06-29T08:30:00",
       "subject_raw": "IMCM",
-      "subject_canonical": "IMCM",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Internet- und Content-Management",
+      "subject_color": "#00BCD4",
       "teachers": [
-        "#174"
+        "GRUB"
+      ],
+      "teacher_names": [
+        "MMag. Peter Gruber"
       ],
       "rooms": [
         "R2BK"
@@ -3327,18 +3966,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "de284a82297fca0e",
+      "id": "656f9dd9b793a289",
       "start": "2026-06-29T08:30:00",
       "end": "2026-06-29T09:20:00",
       "subject_raw": "IMCM",
-      "subject_canonical": "IMCM",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Internet- und Content-Management",
+      "subject_color": "#00BCD4",
       "teachers": [
-        "#174"
+        "GRUB"
+      ],
+      "teacher_names": [
+        "MMag. Peter Gruber"
       ],
       "rooms": [
         "R2BK"
@@ -3349,18 +3992,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "2407a637d566fbc4",
+      "id": "1b2a67db5062e08b",
       "start": "2026-06-29T09:35:00",
       "end": "2026-06-29T10:25:00",
       "subject_raw": "WIDS",
-      "subject_canonical": "WIDS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Wirtschaftsinformatik",
+      "subject_color": "#0D47A1",
       "teachers": [
-        "#162"
+        "AIMI"
+      ],
+      "teacher_names": [
+        "Mag. Michael Aigner"
       ],
       "rooms": [
         "EDV2"
@@ -3371,18 +4018,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "c871ea76a75975b1",
+      "id": "bced9a368692aeea",
       "start": "2026-06-29T10:25:00",
       "end": "2026-06-29T11:15:00",
       "subject_raw": "WIDS",
-      "subject_canonical": "WIDS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Wirtschaftsinformatik",
+      "subject_color": "#0D47A1",
       "teachers": [
-        "#162"
+        "AIMI"
+      ],
+      "teacher_names": [
+        "Mag. Michael Aigner"
       ],
       "rooms": [
         "EDV2"
@@ -3393,18 +4044,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "25ecbfa6399670b5",
+      "id": "339d91aa16a6c0fd",
       "start": "2026-06-29T11:25:00",
       "end": "2026-06-29T12:15:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "TS1"
@@ -3415,18 +4070,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "Koppelung mit 2HLP"
     },
     {
-      "id": "0bd720b4d2a7757d",
+      "id": "04079fc07a1dca50",
       "start": "2026-06-29T12:15:00",
       "end": "2026-06-29T13:05:00",
       "subject_raw": "BESPK",
-      "subject_canonical": "BESPK",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "TS1"
@@ -3437,18 +4096,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": "Koppelung mit 2HLP"
     },
     {
-      "id": "63a6ef2d30aed784",
+      "id": "297bd605b9488cae",
       "start": "2026-06-29T13:40:00",
       "end": "2026-06-29T14:30:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -3459,18 +4122,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "fd989e00e0afef97",
+      "id": "e6e570914b3334d7",
       "start": "2026-06-29T14:30:00",
       "end": "2026-06-29T15:20:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -3481,18 +4148,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "42ed24841590159c",
+      "id": "fc00409a893c4a6f",
       "start": "2026-06-30T07:40:00",
       "end": "2026-06-30T08:30:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [
         "R2BK"
@@ -3503,18 +4174,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "3bdbe9ed8d6b81d8",
+      "id": "2e33551741518017",
       "start": "2026-06-30T08:30:00",
       "end": "2026-06-30T09:20:00",
       "subject_raw": "BW",
       "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#16a085",
+      "subject_color": "#1F4E79",
       "teachers": [
-        "#186"
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
       ],
       "rooms": [
         "R2BK"
@@ -3525,18 +4200,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "4d6f5ea1c8351e1c",
+      "id": "291334d379763fe0",
       "start": "2026-06-30T09:35:00",
       "end": "2026-06-30T10:25:00",
       "subject_raw": "D",
       "subject_canonical": "Deutsch",
-      "subject_color": "#e74c3c",
+      "subject_color": "#C0392B",
       "teachers": [
-        "#231"
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
       ],
       "rooms": [
         "R2BK"
@@ -3547,18 +4226,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "c212b9172c6f0c9f",
+      "id": "5955b73de7aef3c8",
       "start": "2026-06-30T10:25:00",
       "end": "2026-06-30T11:15:00",
       "subject_raw": "D",
       "subject_canonical": "Deutsch",
-      "subject_color": "#e74c3c",
+      "subject_color": "#C0392B",
       "teachers": [
-        "#231"
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
       ],
       "rooms": [
         "R2BK"
@@ -3569,18 +4252,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "5dfda890bcd691f1",
+      "id": "bad5f42177ad9a96",
       "start": "2026-06-30T11:25:00",
       "end": "2026-06-30T12:15:00",
       "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
       "teachers": [
-        "#283"
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
       ],
       "rooms": [
         "R2BK"
@@ -3591,18 +4278,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "5682114ed3d780da",
+      "id": "7b90a80115e924dd",
       "start": "2026-06-30T12:15:00",
       "end": "2026-06-30T13:05:00",
       "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
       "teachers": [
-        "#283"
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
       ],
       "rooms": [
         "R2BK"
@@ -3613,18 +4304,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "4ede1eb5574757cf",
+      "id": "43ed9ee4cc76ea54",
       "start": "2026-07-01T07:40:00",
       "end": "2026-07-01T08:30:00",
       "subject_raw": "GEO",
-      "subject_canonical": "GEO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Geografie und Wirtschaftskunde",
+      "subject_color": "#16A085",
       "teachers": [
-        "#198"
+        "NIND"
+      ],
+      "teacher_names": [
+        "Mag. Miriam Nindl-Scharler"
       ],
       "rooms": [
         "R2BK"
@@ -3635,18 +4330,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "0b61d161fadf8249",
+      "id": "5c3a0abcd8936d79",
       "start": "2026-07-01T08:30:00",
       "end": "2026-07-01T09:20:00",
       "subject_raw": "GEO",
-      "subject_canonical": "GEO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Geografie und Wirtschaftskunde",
+      "subject_color": "#16A085",
       "teachers": [
-        "#198"
+        "NIND"
+      ],
+      "teacher_names": [
+        "Mag. Miriam Nindl-Scharler"
       ],
       "rooms": [
         "R2BK"
@@ -3657,18 +4356,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "bf4b821a3fd064d7",
+      "id": "5072bd00720c1c1d",
       "start": "2026-07-01T09:35:00",
       "end": "2026-07-01T10:25:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -3679,18 +4382,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "5bf22fbecdffb65f",
+      "id": "c32a97f769bc075d",
       "start": "2026-07-01T10:25:00",
       "end": "2026-07-01T11:15:00",
       "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
       "teachers": [
-        "#204"
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
       ],
       "rooms": [
         "EDV2"
@@ -3701,18 +4408,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "58d2e4dd12b6602f",
+      "id": "4fa26d2bf7d9144d",
       "start": "2026-07-01T11:25:00",
       "end": "2026-07-01T12:15:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "EDV2"
@@ -3723,18 +4434,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "57b6f02112d17142",
+      "id": "eeedef14e7678bdc",
       "start": "2026-07-01T12:15:00",
       "end": "2026-07-01T13:05:00",
       "subject_raw": "UNCO",
-      "subject_canonical": "UNCO",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
       "teachers": [
-        "#213"
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
       ],
       "rooms": [
         "EDV2"
@@ -3745,18 +4460,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "04faa510b15630ca",
+      "id": "f93ab1ea5986bbab",
       "start": "2026-07-02T07:40:00",
       "end": "2026-07-02T08:30:00",
       "subject_raw": "MAM",
       "subject_canonical": "Mathematik",
-      "subject_color": "#3498db",
+      "subject_color": "#5B4FE9",
       "teachers": [
-        "#288"
+        "ELLM"
+      ],
+      "teacher_names": [
+        "Viktoria Ellmauer, BSc"
       ],
       "rooms": [
         "R2BK"
@@ -3767,18 +4486,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "f6b9c7d1a72e9198",
+      "id": "0e4c7dbf7c511ece",
       "start": "2026-07-02T08:30:00",
       "end": "2026-07-02T09:20:00",
       "subject_raw": "MAM",
       "subject_canonical": "Mathematik",
-      "subject_color": "#3498db",
+      "subject_color": "#5B4FE9",
       "teachers": [
-        "#288"
+        "ELLM"
+      ],
+      "teacher_names": [
+        "Viktoria Ellmauer, BSc"
       ],
       "rooms": [
         "R2BK"
@@ -3789,18 +4512,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "a63562bf90e3a8de",
+      "id": "ea196e29ccac4b6a",
       "start": "2026-07-02T09:35:00",
       "end": "2026-07-02T10:25:00",
       "subject_raw": "NW3",
-      "subject_canonical": "NW3",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Naturwissenschaften",
+      "subject_color": "#00838F",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "NAWI"
@@ -3811,18 +4538,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "24caf7a1d306d841",
+      "id": "a35caddee0bdd480",
       "start": "2026-07-02T10:25:00",
       "end": "2026-07-02T11:15:00",
       "subject_raw": "NW3",
-      "subject_canonical": "NW3",
-      "subject_color": "#95a5a6",
+      "subject_canonical": "Naturwissenschaften",
+      "subject_color": "#00838F",
       "teachers": [
-        "#219"
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
       ],
       "rooms": [
         "NAWI"
@@ -3833,18 +4564,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "6830454a6f69caea",
+      "id": "e8618b904bea8321",
       "start": "2026-07-02T11:25:00",
       "end": "2026-07-02T12:15:00",
       "subject_raw": "D",
       "subject_canonical": "Deutsch",
-      "subject_color": "#e74c3c",
+      "subject_color": "#C0392B",
       "teachers": [
-        "#231"
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
       ],
       "rooms": [
         "R2BK"
@@ -3855,18 +4590,22 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     },
     {
-      "id": "52e41e730e715fb8",
+      "id": "6bb25385a4738691",
       "start": "2026-07-02T12:15:00",
       "end": "2026-07-02T13:05:00",
       "subject_raw": "D",
       "subject_canonical": "Deutsch",
-      "subject_color": "#e74c3c",
+      "subject_color": "#C0392B",
       "teachers": [
-        "#231"
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
       ],
       "rooms": [
         "R2BK"
@@ -3877,6 +4616,7 @@
       "status": "regular",
       "is_exam": false,
       "original_teachers": [],
+      "original_teacher_names": [],
       "original_rooms": [],
       "note": ""
     }
