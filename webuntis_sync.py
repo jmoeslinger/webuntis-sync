@@ -36,7 +36,7 @@ OUTPUT_JSON_PATH = SCRIPT_DIR / "stundenplan.json"
 
 # Schema-Version des JSON-Outputs. Erhoehen, wenn breaking changes am Schema
 # gemacht werden, damit die App reagieren kann.
-JSON_SCHEMA_VERSION = 1
+JSON_SCHEMA_VERSION = 2  # v2: + teacher_names, + original_teacher_names
 
 
 # ---------------------------------------------------------------------------
@@ -110,13 +110,15 @@ class Lesson:
     start: dt.datetime
     end: dt.datetime
     subject: str
-    teachers: list[str]
+    teachers: list[str]            # Kuerzel (z.B. "AIMI")
+    teacher_names: list[str]       # Vollnamen (z.B. "Mag. Michael Aigner")
     rooms: list[str]
     klassen: list[str]
     code: str          # "" / "cancelled" / "irregular"
     is_exam: bool
     sub_text: str      # Vertretungstext, falls vorhanden
-    original_teachers: list[str]  # bei Vertretung: ursprueglicher Lehrer
+    original_teachers: list[str]
+    original_teacher_names: list[str]
     original_rooms: list[str]
 
 
@@ -172,23 +174,98 @@ def _original_names(period, attr_name: str, raw_key: str,
         return [f"#{r[orgid_key]}" for r in raw_list if r.get(orgid_key)]
 
 
-def fetch_lessons(session: webuntis.Session, start: dt.date, end: dt.date) -> list[Lesson]:
+# --- Teacher-Mapping --------------------------------------------------------
+
+def _build_teacher_map(cfg: Config) -> dict[str, dict]:
+    """Liest cfg.teachers in ein normalisiertes dict.
+    Keys sind STRINGS (YAML kann mit oder ohne Quotes parsen, wir normalisieren)."""
+    raw = cfg.get("teachers", {}) or {}
+    out: dict[str, dict] = {}
+    if isinstance(raw, dict):
+        for k, v in raw.items():
+            if not isinstance(v, dict):
+                continue
+            out[str(k)] = {
+                "code": v.get("code", f"#{k}"),
+                "name": v.get("name", ""),
+            }
+    return out
+
+
+def _teacher_info_for_period(period, teacher_map: dict[str, dict]
+                              ) -> tuple[list[str], list[str]]:
+    """Liefert (codes, full_names) fuer die aktuell unterrichtenden Lehrer
+    einer Stunde. Greift direkt auf period._data['te'], um die rohen IDs zu
+    bekommen (das funktioniert auch fuer Schueler-Accounts ohne
+    getTeachers-Berechtigung). Mappt anschliessend gegen teacher_map."""
+    try:
+        raw_list = period._data.get("te", []) or []
+    except Exception:
+        raw_list = []
+    codes: list[str] = []
+    names: list[str] = []
+    for r in raw_list:
+        tid = r.get("id")
+        if tid is None:
+            continue
+        m = teacher_map.get(str(tid))
+        if m:
+            codes.append(m["code"])
+            names.append(m["name"])
+        else:
+            # Vielleicht hat WebUntis fuer diese Stunde inline-Namen
+            inline = r.get("name") or r.get("longname")
+            if inline:
+                codes.append(str(inline))
+                names.append("")
+            else:
+                codes.append(f"#{tid}")
+                names.append("")
+    return codes, names
+
+
+def _original_teacher_info(period, teacher_map: dict[str, dict]
+                            ) -> tuple[list[str], list[str]]:
+    """Vertretungs-Original: liest period._data['te'][i]['orgid']."""
+    try:
+        raw_list = period._data.get("te", []) or []
+    except Exception:
+        raw_list = []
+    codes: list[str] = []
+    names: list[str] = []
+    for r in raw_list:
+        oid = r.get("orgid")
+        if not oid:
+            continue
+        m = teacher_map.get(str(oid))
+        if m:
+            codes.append(m["code"])
+            names.append(m["name"])
+        else:
+            codes.append(f"#{oid}")
+            names.append("")
+    return codes, names
+
+
+def fetch_lessons(session: webuntis.Session, start: dt.date, end: dt.date,
+                  teacher_map: dict[str, dict] | None = None) -> list[Lesson]:
     """Holt den Stundenplan vom WebUntis-Server und mappt ihn auf Lesson."""
+    teacher_map = teacher_map or {}
     timetable = session.my_timetable(start=start, end=end)
     lessons: list[Lesson] = []
     for period in timetable:
         subjects_list = _names_from_attr(period, "subjects", "su")
         subject = ", ".join(subjects_list) if subjects_list else "?"
-        teachers = _names_from_attr(period, "teachers", "te")
+        teachers, teacher_names = _teacher_info_for_period(period, teacher_map)
         rooms = _names_from_attr(period, "rooms", "ro")
         klassen = _names_from_attr(period, "klassen", "kl")
 
-        # Originale (bei Vertretung): WebUntis liefert original_* nur wenn anders.
-        original_teachers = _original_names(period, "teachers", "te", "orgid")
+        # Originale (bei Vertretung)
+        original_teachers, original_teacher_names = \
+            _original_teacher_info(period, teacher_map)
         original_rooms = _original_names(period, "rooms", "ro", "orgid")
 
         code = getattr(period, "code", "") or ""
-        # In manchen WebUntis-Instanzen sind Klausuren ueber period.type erkennbar.
         is_exam = bool(getattr(period, "exam", None)) or \
                   (getattr(period, "type", "") == "exam")
 
@@ -199,12 +276,14 @@ def fetch_lessons(session: webuntis.Session, start: dt.date, end: dt.date) -> li
             end=period.end,
             subject=subject,
             teachers=teachers,
+            teacher_names=teacher_names,
             rooms=rooms,
             klassen=klassen,
             code=code,
             is_exam=is_exam,
             sub_text=sub_text,
             original_teachers=original_teachers,
+            original_teacher_names=original_teacher_names,
             original_rooms=original_rooms,
         ))
     return lessons
@@ -390,12 +469,14 @@ def build_json_payload(lessons: list[Lesson], cfg: Config) -> dict:
             "subject_raw": lesson.subject,
             "subject_canonical": canonical,
             "subject_color": subj_cfg.get("color", default_color),
-            "teachers": lesson.teachers,
+            "teachers": lesson.teachers,                 # Kuerzel
+            "teacher_names": lesson.teacher_names,       # Vollnamen
             "rooms": lesson.rooms,
             "classes": lesson.klassen,
             "status": status,
             "is_exam": lesson.is_exam,
             "original_teachers": lesson.original_teachers,
+            "original_teacher_names": lesson.original_teacher_names,
             "original_rooms": lesson.original_rooms,
             "note": lesson.sub_text,
         })
@@ -454,6 +535,10 @@ def main() -> int:
 
     print(f"[INFO] Sync {start} bis {end} von {server} / {school}")
 
+    teacher_map = _build_teacher_map(cfg)
+    if teacher_map:
+        print(f"[INFO] Teacher-Mapping geladen: {len(teacher_map)} Eintraege")
+
     with webuntis.Session(
         server=server,
         school=school,
@@ -461,7 +546,7 @@ def main() -> int:
         password=password,
         useragent="webuntis-sync (personal calendar)",
     ).login() as session:
-        lessons = fetch_lessons(session, start, end)
+        lessons = fetch_lessons(session, start, end, teacher_map=teacher_map)
 
     print(f"[INFO] {len(lessons)} Stunden erhalten")
 

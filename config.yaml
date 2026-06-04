@@ -1,35 +1,32 @@
 # ===============================================================
-# WebUntis Sync — Backend-Konfiguration
+# WebUntis Sync — Backend-Konfiguration (BHAK Zell am See, 5HBM o.ae.)
 # ===============================================================
-# Dieses Skript holt deinen Stundenplan aus WebUntis und legt ihn als
-# stundenplan.json ab, damit die App (../webuntis-app/) ihn lesen kann.
+# Liefert stundenplan.json fuer die App (webuntis-app).
 # ===============================================================
 
-# --- WebUntis Server ---------------------------------------------
+# --- WebUntis ----------------------------------------------------
 webuntis:
   server: "hakzell-hlpzell.webuntis.com"
-  school: "hakzell-hlpzell"        # URL-Slug (aus ?school=... in der Adresse)
-  # Falls Login-Fehler: stattdessen "BHAK Zell am See, HLP Zell am See" probieren.
+  school: "hakzell-hlpzell"
 
-# --- Sync-Zeitraum -----------------------------------------------
+# --- Sync-Zeitraum ----------------------------------------------
 sync:
   weeks_ahead: 4
   weeks_back: 1
   timezone: "Europe/Vienna"
 
-# --- Output-Dateien ----------------------------------------------
+# --- Output-Dateien ---------------------------------------------
 outputs:
   json:
     enabled: true
   ics:
     enabled: false
 
-# --- Kalender-Metadaten (nur fuer ICS, falls aktiviert) -----------
+# --- ICS-only Felder (ignoriert solange ics.enabled=false) ------
 calendar:
   name: "Schule (WebUntis)"
   description: "Automatisch generiert aus WebUntis"
 
-# --- Anzeige-Optionen (nur fuer ICS) -----------------------------
 display:
   title_format: "{subject} ({room})"
   description_format: |
@@ -39,40 +36,108 @@ display:
   location_format: "{room}"
   include_breaks: false
 
-# --- Fach-Konfiguration ------------------------------------------
-# Die Faecher hier kannst du jederzeit erweitern/anpassen — die App liest
-# die Farben als Default; pro Geraet kannst du sie in den App-Settings
-# ueberschreiben.
-#
-# Tipp BHAK-spezifisch: ergaenze hier deine Faecher wie BW, RW, WINF, AM,
-# DV, etc. mit den passenden Farben.
+# --- Fach-Konfiguration -----------------------------------------
+# Pro Fach: Hauptfarbe (HEX) + alle Schreibweisen, die WebUntis liefert.
+# Die App liest diese als Default-Farben; pro Geraet kannst du sie ueber-
+# schreiben (Einstellungen -> Fach-Farben).
 subjects:
-  Mathematik:
-    color: "#3498db"
-    aliases: ["M", "Mathe", "MAM", "AM", "Angewandte Mathematik"]
-  Deutsch:
-    color: "#e74c3c"
-    aliases: ["D", "DEU"]
-  Englisch:
-    color: "#f1c40f"
-    aliases: ["E", "ENG", "BE", "Business English"]
-  Geschichte:
-    color: "#8e44ad"
-    aliases: ["GSK", "GS", "GWK"]
-  Sport:
-    color: "#2ecc71"
-    aliases: ["BSPK", "LUM", "BEW"]
+  Angewandtes Programmieren:
+    color: "#3498DB"
+    aliases: ["APR"]
+  Bewegung und Sport:
+    color: "#27AE60"
+    aliases: ["BESPK", "BSPK", "LUM"]
   Betriebswirtschaft:
-    color: "#16a085"
-    aliases: ["BW", "BWL"]
-  Rechnungswesen:
-    color: "#1abc9c"
-    aliases: ["RW", "UNRW"]
+    color: "#1F4E79"
+    aliases: ["BW", "BWL", "Betriebswirtschaftslehre"]
+  Deutsch:
+    color: "#C0392B"
+    aliases: ["D", "DEU"]
+  Englische Wirtschaftssprache:
+    color: "#E67E22"
+    aliases: ["ENWS", "E", "ENG", "BE"]
+  Geografie und Wirtschaftskunde:
+    color: "#16A085"
+    aliases: ["GEO", "GWK"]
+  Internet- und Content-Management:
+    color: "#00BCD4"
+    aliases: ["IMCM"]
+  Mathematik:
+    color: "#5B4FE9"
+    aliases: ["MAM", "M", "Mathe", "AM", "Angewandte Mathematik"]
+  Naturwissenschaften:
+    color: "#00838F"
+    aliases: ["NW3", "NW", "NaWi", "Biologie", "Physik", "Chemie"]
+  Office Management:
+    color: "#F39C12"
+    aliases: ["OMAI"]
+  Politische Bildung und Geschichte:
+    color: "#8E44AD"
+    aliases: ["PBGW", "GSK", "GS"]
+  Religion (kath.):
+    color: "#9B59B6"
+    aliases: ["RK"]
+  Unternehmensrechnungen:
+    color: "#B71C5C"
+    aliases: ["UNCO", "RW", "UNRW", "Rechnungswesen"]
   Wirtschaftsinformatik:
-    color: "#34495e"
-    aliases: ["WINF", "INF", "DV"]
+    color: "#0D47A1"
+    aliases: ["WIDS", "WINF", "INF", "DV"]
   _default:
-    color: "#95a5a6"
+    color: "#95A5A6"
+
+# --- Lehrer-Mapping ---------------------------------------------
+# WebUntis liefert Schueler-Accounts nur die internen IDs der Lehrer
+# (keine Klartextnamen). Hier mappen wir auf die in der Schule
+# verwendeten Kuerzel + den vollen Namen (fuer die Detailansicht).
+# IDs ermitteln: einmaliger Sync, dann steht im stundenplan.json
+# bei jedem Eintrag "teachers": ["#123"] — diese 123 hierher uebernehmen.
+teachers:
+  "162":
+    code: "AIMI"
+    name: "Mag. Michael Aigner"
+  "165":
+    code: "BODN"
+    name: "Dr. Gudrun Bodner"
+  "168":
+    code: "EDEH"
+    name: "Mag. Harald Eder"
+  "174":
+    code: "GRUB"
+    name: "MMag. Peter Gruber"
+  "186":
+    code: "HIRS"
+    name: "Mag. Bernd Hirschbichler"
+  "198":
+    code: "NIND"
+    name: "Mag. Miriam Nindl-Scharler"
+  "204":
+    code: "RASS"
+    name: "Mag. Peter Rasser"
+  "213":
+    code: "SEME"
+    name: "Mag. Michaela Semler"
+  "216":
+    code: "SINN"
+    name: "Mag. Tanja Sinnhuber"
+  "219":
+    code: "SNEP"
+    name: "MMag. Johannes Schnepf"
+  "225":
+    code: "SPIZ"
+    name: "Mag. Sabine Spitzer"
+  "231":
+    code: "SWAC"
+    name: "Mag. Christian Schwaiger"
+  "255":
+    code: "KRAN"
+    name: "Sandra Kranawendter, MEd"
+  "283":
+    code: "BERG"
+    name: "Mag. Julia Bergmann"
+  "288":
+    code: "ELLM"
+    name: "Viktoria Ellmauer, BSc"
 
 # --- Filter ------------------------------------------------------
 filter:
@@ -81,28 +146,28 @@ filter:
   exclude_classes: []
   exclude_weekdays: []
 
-# --- Vertretungen, Entfaelle, Raumwechsel -----------------------
+# --- Vertretungen, Entfaelle, Raumwechsel ----------------------
 substitutions:
   cancelled:
     mode: "mark"
     title_prefix: "⊘ ENTFALL: "
-    color: "#7f8c8d"
+    color: "#7F8C8D"
   substitute:
     title_prefix: "↻ "
     show_original_teacher: true
-    color: "#e67e22"
+    color: "#E67E22"
   room_change:
     title_prefix: "⌂ "
     show_original_room: true
   additional:
     title_prefix: "+ "
-    color: "#16a085"
+    color: "#16A085"
 
 # --- Klausuren ---------------------------------------------------
 exams:
   enabled: true
   title_prefix: "📝 KLAUSUR: "
-  color: "#c0392b"
+  color: "#C0392B"
   reminder_minutes: 1440
 
 homework:
