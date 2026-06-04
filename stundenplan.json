@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-03T22:05:58.893511+00:00",
+  "generated_at": "2026-06-04T00:01:06.450304+00:00",
   "timezone": "Europe/Vienna",
   "school": {
     "name": "hakzell-hlpzell",
@@ -78,182 +78,6 @@
   },
   "default_color": "#95a5a6",
   "lessons": [
-    {
-      "id": "e61f9a2a9e630107",
-      "start": "2026-05-27T07:40:00",
-      "end": "2026-05-27T08:30:00",
-      "subject_raw": "GEO",
-      "subject_canonical": "GEO",
-      "subject_color": "#95a5a6",
-      "teachers": [
-        "#198"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_rooms": [],
-      "note": ""
-    },
-    {
-      "id": "a23a6d0c7e971c80",
-      "start": "2026-05-27T08:30:00",
-      "end": "2026-05-27T09:20:00",
-      "subject_raw": "GEO",
-      "subject_canonical": "GEO",
-      "subject_color": "#95a5a6",
-      "teachers": [
-        "#198"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_rooms": [],
-      "note": ""
-    },
-    {
-      "id": "83eff3982fdea2a2",
-      "start": "2026-05-27T09:35:00",
-      "end": "2026-05-27T10:25:00",
-      "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
-      "teachers": [
-        "#204"
-      ],
-      "rooms": [
-        "EDV2"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_rooms": [],
-      "note": ""
-    },
-    {
-      "id": "8fa30f23a162fefd",
-      "start": "2026-05-27T10:25:00",
-      "end": "2026-05-27T11:15:00",
-      "subject_raw": "APR",
-      "subject_canonical": "APR",
-      "subject_color": "#95a5a6",
-      "teachers": [
-        "#204"
-      ],
-      "rooms": [
-        "EDV2"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_rooms": [],
-      "note": ""
-    },
-    {
-      "id": "732ab2bd7bd07bdb",
-      "start": "2026-05-27T11:25:00",
-      "end": "2026-05-27T12:15:00",
-      "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
-      "teachers": [
-        "#283"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_rooms": [],
-      "note": ""
-    },
-    {
-      "id": "4c61750e9deb16b5",
-      "start": "2026-05-27T12:15:00",
-      "end": "2026-05-27T13:05:00",
-      "subject_raw": "ENWS",
-      "subject_canonical": "ENWS",
-      "subject_color": "#95a5a6",
-      "teachers": [
-        "#283"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_rooms": [],
-      "note": ""
-    },
-    {
-      "id": "46a024cd0d73d46d",
-      "start": "2026-05-27T13:40:00",
-      "end": "2026-05-27T14:30:00",
-      "subject_raw": "RK",
-      "subject_canonical": "RK",
-      "subject_color": "#95a5a6",
-      "teachers": [
-        "#255"
-      ],
-      "rooms": [
-        "R2AK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_rooms": [],
-      "note": ""
-    },
-    {
-      "id": "019b74c7384adb75",
-      "start": "2026-05-27T14:30:00",
-      "end": "2026-05-27T15:20:00",
-      "subject_raw": "RK",
-      "subject_canonical": "RK",
-      "subject_color": "#95a5a6",
-      "teachers": [
-        "#255"
-      ],
-      "rooms": [
-        "R2AK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_rooms": [],
-      "note": ""
-    },
     {
       "id": "d9f481b066192abd",
       "start": "2026-05-28T07:40:00",
@@ -3914,6 +3738,138 @@
       ],
       "rooms": [
         "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "04faa510b15630ca",
+      "start": "2026-07-02T07:40:00",
+      "end": "2026-07-02T08:30:00",
+      "subject_raw": "MAM",
+      "subject_canonical": "Mathematik",
+      "subject_color": "#3498db",
+      "teachers": [
+        "#288"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "f6b9c7d1a72e9198",
+      "start": "2026-07-02T08:30:00",
+      "end": "2026-07-02T09:20:00",
+      "subject_raw": "MAM",
+      "subject_canonical": "Mathematik",
+      "subject_color": "#3498db",
+      "teachers": [
+        "#288"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "a63562bf90e3a8de",
+      "start": "2026-07-02T09:35:00",
+      "end": "2026-07-02T10:25:00",
+      "subject_raw": "NW3",
+      "subject_canonical": "NW3",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "NAWI"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "24caf7a1d306d841",
+      "start": "2026-07-02T10:25:00",
+      "end": "2026-07-02T11:15:00",
+      "subject_raw": "NW3",
+      "subject_canonical": "NW3",
+      "subject_color": "#95a5a6",
+      "teachers": [
+        "#219"
+      ],
+      "rooms": [
+        "NAWI"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "6830454a6f69caea",
+      "start": "2026-07-02T11:25:00",
+      "end": "2026-07-02T12:15:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#e74c3c",
+      "teachers": [
+        "#231"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_rooms": [],
+      "note": ""
+    },
+    {
+      "id": "52e41e730e715fb8",
+      "start": "2026-07-02T12:15:00",
+      "end": "2026-07-02T13:05:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#e74c3c",
+      "teachers": [
+        "#231"
+      ],
+      "rooms": [
+        "R2BK"
       ],
       "classes": [
         "2BHK"
