@@ -36,7 +36,7 @@ OUTPUT_JSON_PATH = SCRIPT_DIR / "stundenplan.json"
 
 # Schema-Version des JSON-Outputs. Erhoehen, wenn breaking changes am Schema
 # gemacht werden, damit die App reagieren kann.
-JSON_SCHEMA_VERSION = 2  # v2: + teacher_names, + original_teacher_names
+JSON_SCHEMA_VERSION = 3  # v3: + lesson_text, + info (Lehrstoff getrennt von Vertretungstext)
 
 
 # ---------------------------------------------------------------------------
@@ -116,7 +116,9 @@ class Lesson:
     klassen: list[str]
     code: str          # "" / "cancelled" / "irregular"
     is_exam: bool
-    sub_text: str      # Vertretungstext, falls vorhanden
+    sub_text: str       # Vertretungstext / substText
+    lesson_text: str    # Lehrstoff / lstext (z.B. "Kapitel 6.20 ...")
+    info: str           # info-Feld (z.B. "Workshop ...")
     original_teachers: list[str]
     original_teacher_names: list[str]
     original_rooms: list[str]
@@ -224,6 +226,14 @@ def _teacher_info_for_period(period, teacher_map: dict[str, dict]
     return codes, names
 
 
+def _raw(period, key: str):
+    """Holt period._data[key] mit defensive try/except."""
+    try:
+        return period._data.get(key)
+    except Exception:
+        return None
+
+
 def _original_teacher_info(period, teacher_map: dict[str, dict]
                             ) -> tuple[list[str], list[str]]:
     """Vertretungs-Original: liest period._data['te'][i]['orgid']."""
@@ -269,7 +279,14 @@ def fetch_lessons(session: webuntis.Session, start: dt.date, end: dt.date,
         is_exam = bool(getattr(period, "exam", None)) or \
                   (getattr(period, "type", "") == "exam")
 
-        sub_text = getattr(period, "substText", "") or getattr(period, "lstext", "") or ""
+        # Drei separate Text-Felder. Die Lib-Attribute koennen None sein,
+        # ausserdem checken wir period._data als Fallback.
+        sub_text = (getattr(period, "substText", "")
+                    or _raw(period, "substText") or "")
+        lesson_text = (getattr(period, "lstext", "")
+                       or _raw(period, "lstext") or "")
+        info = (getattr(period, "info", "")
+                or _raw(period, "info") or "")
 
         lessons.append(Lesson(
             start=period.start,
@@ -282,6 +299,8 @@ def fetch_lessons(session: webuntis.Session, start: dt.date, end: dt.date,
             code=code,
             is_exam=is_exam,
             sub_text=sub_text,
+            lesson_text=lesson_text,
+            info=info,
             original_teachers=original_teachers,
             original_teacher_names=original_teacher_names,
             original_rooms=original_rooms,
@@ -478,7 +497,9 @@ def build_json_payload(lessons: list[Lesson], cfg: Config) -> dict:
             "original_teachers": lesson.original_teachers,
             "original_teacher_names": lesson.original_teacher_names,
             "original_rooms": lesson.original_rooms,
-            "note": lesson.sub_text,
+            "note": lesson.sub_text,            # Vertretungstext (Legacy)
+            "lesson_text": lesson.lesson_text,  # Lehrstoff
+            "info": lesson.info,                # info-Feld
         })
 
     # Sortiert nach Startzeit fuer die App
