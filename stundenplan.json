@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-06-04T23:36:37.789808+00:00",
+  "generated_at": "2026-06-05T04:46:19.759163+00:00",
   "timezone": "Europe/Vienna",
   "school": {
     "name": "hakzell-hlpzell",
@@ -124,200 +124,6 @@
   },
   "default_color": "#95A5A6",
   "lessons": [
-    {
-      "id": "70ce928c018a87be",
-      "start": "2026-05-28T07:40:00",
-      "end": "2026-05-28T08:30:00",
-      "subject_raw": "MAM",
-      "subject_canonical": "Mathematik",
-      "subject_color": "#5B4FE9",
-      "teachers": [
-        "ELLM"
-      ],
-      "teacher_names": [
-        "Viktoria Ellmauer, BSc"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "9fe87bf7df80bb57",
-      "start": "2026-05-28T08:30:00",
-      "end": "2026-05-28T09:20:00",
-      "subject_raw": "MAM",
-      "subject_canonical": "Mathematik",
-      "subject_color": "#5B4FE9",
-      "teachers": [
-        "ELLM"
-      ],
-      "teacher_names": [
-        "Viktoria Ellmauer, BSc"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "35da838ebc74be13",
-      "start": "2026-05-28T09:35:00",
-      "end": "2026-05-28T13:05:00",
-      "subject_raw": "?",
-      "subject_canonical": "?",
-      "subject_color": "#95A5A6",
-      "teachers": [
-        "HIRS"
-      ],
-      "teacher_names": [
-        "Mag. Bernd Hirschbichler"
-      ],
-      "rooms": [],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "additional",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "Exkursion Senoplast Piesendorf",
-      "lesson_text": "Exkursion Senoplast Piesendorf",
-      "info": ""
-    },
-    {
-      "id": "a92bcb81b7b3c362",
-      "start": "2026-05-28T09:35:00",
-      "end": "2026-05-28T10:25:00",
-      "subject_raw": "NW3",
-      "subject_canonical": "Naturwissenschaften",
-      "subject_color": "#00838F",
-      "teachers": [
-        "SNEP"
-      ],
-      "teacher_names": [
-        "MMag. Johannes Schnepf"
-      ],
-      "rooms": [
-        "NAWI"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "cancelled",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "25981607c245926e",
-      "start": "2026-05-28T10:25:00",
-      "end": "2026-05-28T11:15:00",
-      "subject_raw": "NW3",
-      "subject_canonical": "Naturwissenschaften",
-      "subject_color": "#00838F",
-      "teachers": [
-        "SNEP"
-      ],
-      "teacher_names": [
-        "MMag. Johannes Schnepf"
-      ],
-      "rooms": [
-        "NAWI"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "cancelled",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "57d58205b85472c3",
-      "start": "2026-05-28T11:25:00",
-      "end": "2026-05-28T12:15:00",
-      "subject_raw": "BW",
-      "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#1F4E79",
-      "teachers": [
-        "HIRS"
-      ],
-      "teacher_names": [
-        "Mag. Bernd Hirschbichler"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "cancelled",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "dff150ccc2f8b421",
-      "start": "2026-05-28T12:15:00",
-      "end": "2026-05-28T13:05:00",
-      "subject_raw": "BW",
-      "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#1F4E79",
-      "teachers": [
-        "HIRS"
-      ],
-      "teacher_names": [
-        "Mag. Bernd Hirschbichler"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "cancelled",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
     {
       "id": "7ddd0e051e20366c",
       "start": "2026-05-29T07:40:00",
@@ -4953,6 +4759,118 @@
       ],
       "rooms": [
         "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "84be46dafdfb4acf",
+      "start": "2026-07-03T07:40:00",
+      "end": "2026-07-03T08:30:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
+      "teachers": [
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "99fe1ede8553593d",
+      "start": "2026-07-03T08:30:00",
+      "end": "2026-07-03T09:20:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
+      "teachers": [
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "f256468832ee8392",
+      "start": "2026-07-03T09:35:00",
+      "end": "2026-07-03T10:25:00",
+      "subject_raw": "OMAI",
+      "subject_canonical": "Office Management",
+      "subject_color": "#F39C12",
+      "teachers": [
+        "EDEH"
+      ],
+      "teacher_names": [
+        "Mag. Harald Eder"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "40bd2c0bc3abaaeb",
+      "start": "2026-07-03T10:25:00",
+      "end": "2026-07-03T11:15:00",
+      "subject_raw": "OMAI",
+      "subject_canonical": "Office Management",
+      "subject_color": "#F39C12",
+      "teachers": [
+        "EDEH"
+      ],
+      "teacher_names": [
+        "Mag. Harald Eder"
+      ],
+      "rooms": [
+        "EDV2"
       ],
       "classes": [
         "2BHK"
