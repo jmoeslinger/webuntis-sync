@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-06-07T22:17:53.215131+00:00",
+  "generated_at": "2026-06-08T01:34:27.282880+00:00",
   "timezone": "Europe/Vienna",
   "school": {
     "name": "hakzell-hlpzell",
@@ -4714,6 +4714,174 @@
       "original_rooms": [],
       "note": "",
       "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "101c050c77f181c1",
+      "start": "2026-07-06T07:40:00",
+      "end": "2026-07-06T08:30:00",
+      "subject_raw": "IMCM",
+      "subject_canonical": "Internet- und Content-Management",
+      "subject_color": "#00BCD4",
+      "teachers": [
+        "GRUB"
+      ],
+      "teacher_names": [
+        "MMag. Peter Gruber"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "ca98a2c0dc26d635",
+      "start": "2026-07-06T08:30:00",
+      "end": "2026-07-06T09:20:00",
+      "subject_raw": "IMCM",
+      "subject_canonical": "Internet- und Content-Management",
+      "subject_color": "#00BCD4",
+      "teachers": [
+        "GRUB"
+      ],
+      "teacher_names": [
+        "MMag. Peter Gruber"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "b31d0cfd2d279a61",
+      "start": "2026-07-06T09:35:00",
+      "end": "2026-07-06T10:25:00",
+      "subject_raw": "WIDS",
+      "subject_canonical": "Wirtschaftsinformatik",
+      "subject_color": "#0D47A1",
+      "teachers": [
+        "AIMI"
+      ],
+      "teacher_names": [
+        "Mag. Michael Aigner"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "739961a21c1dbfa3",
+      "start": "2026-07-06T10:25:00",
+      "end": "2026-07-06T11:15:00",
+      "subject_raw": "WIDS",
+      "subject_canonical": "Wirtschaftsinformatik",
+      "subject_color": "#0D47A1",
+      "teachers": [
+        "AIMI"
+      ],
+      "teacher_names": [
+        "Mag. Michael Aigner"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "05f326da0898edba",
+      "start": "2026-07-06T11:25:00",
+      "end": "2026-07-06T12:15:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
+      "teachers": [
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "Koppelung mit 2HLP",
+      "info": ""
+    },
+    {
+      "id": "2e754c5a58e331b0",
+      "start": "2026-07-06T12:15:00",
+      "end": "2026-07-06T13:05:00",
+      "subject_raw": "BESPK",
+      "subject_canonical": "Bewegung und Sport",
+      "subject_color": "#27AE60",
+      "teachers": [
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
+      ],
+      "rooms": [
+        "TS1"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "Koppelung mit 2HLP",
       "info": ""
     }
   ]
