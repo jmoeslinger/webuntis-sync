@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-06-08T23:36:37.403996+00:00",
+  "generated_at": "2026-06-09T04:34:16.286394+00:00",
   "timezone": "Europe/Vienna",
   "school": {
     "name": "hakzell-hlpzell",
@@ -124,230 +124,6 @@
   },
   "default_color": "#95A5A6",
   "lessons": [
-    {
-      "id": "4f731a2e92074859",
-      "start": "2026-06-01T07:40:00",
-      "end": "2026-06-01T08:30:00",
-      "subject_raw": "IMCM",
-      "subject_canonical": "Internet- und Content-Management",
-      "subject_color": "#00BCD4",
-      "teachers": [
-        "GRUB"
-      ],
-      "teacher_names": [
-        "MMag. Peter Gruber"
-      ],
-      "rooms": [
-        "EDV3"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "2c619af12df042a5",
-      "start": "2026-06-01T08:30:00",
-      "end": "2026-06-01T09:20:00",
-      "subject_raw": "IMCM",
-      "subject_canonical": "Internet- und Content-Management",
-      "subject_color": "#00BCD4",
-      "teachers": [
-        "GRUB"
-      ],
-      "teacher_names": [
-        "MMag. Peter Gruber"
-      ],
-      "rooms": [
-        "EDV3"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "e9fb40bec4340380",
-      "start": "2026-06-01T09:35:00",
-      "end": "2026-06-01T10:25:00",
-      "subject_raw": "WIDS",
-      "subject_canonical": "Wirtschaftsinformatik",
-      "subject_color": "#0D47A1",
-      "teachers": [
-        "AIMI"
-      ],
-      "teacher_names": [
-        "Mag. Michael Aigner"
-      ],
-      "rooms": [
-        "EDV2"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "a7fbf1d4f8769b16",
-      "start": "2026-06-01T10:25:00",
-      "end": "2026-06-01T11:15:00",
-      "subject_raw": "WIDS",
-      "subject_canonical": "Wirtschaftsinformatik",
-      "subject_color": "#0D47A1",
-      "teachers": [
-        "AIMI"
-      ],
-      "teacher_names": [
-        "Mag. Michael Aigner"
-      ],
-      "rooms": [
-        "EDV2"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "6c5510a600056047",
-      "start": "2026-06-01T11:25:00",
-      "end": "2026-06-01T12:15:00",
-      "subject_raw": "BESPK",
-      "subject_canonical": "Bewegung und Sport",
-      "subject_color": "#27AE60",
-      "teachers": [
-        "SNEP"
-      ],
-      "teacher_names": [
-        "MMag. Johannes Schnepf"
-      ],
-      "rooms": [
-        "TS1"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "Koppelung mit 2HLP",
-      "info": ""
-    },
-    {
-      "id": "53717d86bdb0e884",
-      "start": "2026-06-01T12:15:00",
-      "end": "2026-06-01T13:05:00",
-      "subject_raw": "BESPK",
-      "subject_canonical": "Bewegung und Sport",
-      "subject_color": "#27AE60",
-      "teachers": [
-        "SNEP"
-      ],
-      "teacher_names": [
-        "MMag. Johannes Schnepf"
-      ],
-      "rooms": [
-        "TS1"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "Koppelung mit 2HLP",
-      "info": ""
-    },
-    {
-      "id": "2dcb4d3f4d375aa3",
-      "start": "2026-06-01T13:40:00",
-      "end": "2026-06-01T14:30:00",
-      "subject_raw": "APR",
-      "subject_canonical": "Angewandtes Programmieren",
-      "subject_color": "#3498DB",
-      "teachers": [
-        "RASS"
-      ],
-      "teacher_names": [
-        "Mag. Peter Rasser"
-      ],
-      "rooms": [
-        "EDV2"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "cancelled",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "29375224701974ef",
-      "start": "2026-06-01T14:30:00",
-      "end": "2026-06-01T15:20:00",
-      "subject_raw": "APR",
-      "subject_canonical": "Angewandtes Programmieren",
-      "subject_color": "#3498DB",
-      "teachers": [
-        "RASS"
-      ],
-      "teacher_names": [
-        "Mag. Peter Rasser"
-      ],
-      "rooms": [
-        "EDV2"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "cancelled",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
     {
       "id": "33b6744c5ab4091f",
       "start": "2026-06-02T07:40:00",
@@ -4882,6 +4658,200 @@
       "original_rooms": [],
       "note": "",
       "lesson_text": "Koppelung mit 2HLP",
+      "info": ""
+    },
+    {
+      "id": "f8ce2a690718510c",
+      "start": "2026-07-07T07:40:00",
+      "end": "2026-07-07T08:30:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#1F4E79",
+      "teachers": [
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "regular",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "a69174da4b631e2c",
+      "start": "2026-07-07T08:30:00",
+      "end": "2026-07-07T17:00:00",
+      "subject_raw": "?",
+      "subject_canonical": "?",
+      "subject_color": "#95A5A6",
+      "teachers": [
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
+      ],
+      "rooms": [],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "Kino",
+      "lesson_text": "Kino",
+      "info": ""
+    },
+    {
+      "id": "719eac718332dd80",
+      "start": "2026-07-07T08:30:00",
+      "end": "2026-07-07T09:20:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#1F4E79",
+      "teachers": [
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "3b5dea07e3794cc1",
+      "start": "2026-07-07T09:35:00",
+      "end": "2026-07-07T10:25:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#C0392B",
+      "teachers": [
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "c90239bb7f316e8f",
+      "start": "2026-07-07T10:25:00",
+      "end": "2026-07-07T11:15:00",
+      "subject_raw": "D",
+      "subject_canonical": "Deutsch",
+      "subject_color": "#C0392B",
+      "teachers": [
+        "SWAC"
+      ],
+      "teacher_names": [
+        "Mag. Christian Schwaiger"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "4ee303664a7ad920",
+      "start": "2026-07-07T11:25:00",
+      "end": "2026-07-07T12:15:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
+      "teachers": [
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "a5adc59648a6c36f",
+      "start": "2026-07-07T12:15:00",
+      "end": "2026-07-07T13:05:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
+      "teachers": [
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
       "info": ""
     }
   ]
