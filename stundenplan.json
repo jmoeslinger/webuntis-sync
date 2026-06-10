@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-06-09T22:49:51.351116+00:00",
+  "generated_at": "2026-06-10T01:31:00.541768+00:00",
   "timezone": "Europe/Vienna",
   "school": {
     "name": "hakzell-hlpzell",
@@ -124,346 +124,6 @@
   },
   "default_color": "#95A5A6",
   "lessons": [
-    {
-      "id": "33b6744c5ab4091f",
-      "start": "2026-06-02T07:40:00",
-      "end": "2026-06-02T08:30:00",
-      "subject_raw": "BW",
-      "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#1F4E79",
-      "teachers": [
-        "HIRS"
-      ],
-      "teacher_names": [
-        "Mag. Bernd Hirschbichler"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "cancelled",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "00fcd0d8fd42a36b",
-      "start": "2026-06-02T07:40:00",
-      "end": "2026-06-02T08:30:00",
-      "subject_raw": "ENWS",
-      "subject_canonical": "Englische Wirtschaftssprache",
-      "subject_color": "#E67E22",
-      "teachers": [
-        "SPIZ"
-      ],
-      "teacher_names": [
-        "Mag. Sabine Spitzer"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "b7e50396272522e0",
-      "start": "2026-06-02T08:30:00",
-      "end": "2026-06-02T09:20:00",
-      "subject_raw": "BW",
-      "subject_canonical": "Betriebswirtschaft",
-      "subject_color": "#1F4E79",
-      "teachers": [
-        "SINN"
-      ],
-      "teacher_names": [
-        "Mag. Tanja Sinnhuber"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [
-        "HIRS"
-      ],
-      "original_teacher_names": [
-        "Mag. Bernd Hirschbichler"
-      ],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "4ee298fef9fc8a97",
-      "start": "2026-06-02T09:35:00",
-      "end": "2026-06-02T10:25:00",
-      "subject_raw": "D",
-      "subject_canonical": "Deutsch",
-      "subject_color": "#C0392B",
-      "teachers": [
-        "SWAC"
-      ],
-      "teacher_names": [
-        "Mag. Christian Schwaiger"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "cancelled",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "20fc5340004dd832",
-      "start": "2026-06-02T09:35:00",
-      "end": "2026-06-02T10:25:00",
-      "subject_raw": "WIDS",
-      "subject_canonical": "Wirtschaftsinformatik",
-      "subject_color": "#0D47A1",
-      "teachers": [
-        "AIMI"
-      ],
-      "teacher_names": [
-        "Mag. Michael Aigner"
-      ],
-      "rooms": [
-        "BWZ"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "additional",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "a876f71471c9bb36",
-      "start": "2026-06-02T10:25:00",
-      "end": "2026-06-02T11:15:00",
-      "subject_raw": "D",
-      "subject_canonical": "Deutsch",
-      "subject_color": "#C0392B",
-      "teachers": [
-        "SWAC"
-      ],
-      "teacher_names": [
-        "Mag. Christian Schwaiger"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "cancelled",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "88e8fe5dd9fc5c8c",
-      "start": "2026-06-02T10:25:00",
-      "end": "2026-06-02T11:15:00",
-      "subject_raw": "WIDS",
-      "subject_canonical": "Wirtschaftsinformatik",
-      "subject_color": "#0D47A1",
-      "teachers": [
-        "AIMI"
-      ],
-      "teacher_names": [
-        "Mag. Michael Aigner"
-      ],
-      "rooms": [
-        "BWZ"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "additional",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "7209b5116b84334d",
-      "start": "2026-06-02T11:25:00",
-      "end": "2026-06-02T13:40:00",
-      "subject_raw": "?",
-      "subject_canonical": "?",
-      "subject_color": "#95A5A6",
-      "teachers": [
-        "BERG"
-      ],
-      "teacher_names": [
-        "Mag. Julia Bergmann"
-      ],
-      "rooms": [
-        "R5AK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "additional",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "Workshop traffic safety for you - WS Drogen - Beginn: 12:00 Uhr",
-      "lesson_text": "Workshop traffic safety for you - WS Drogen - Beginn: 12:00 Uhr",
-      "info": ""
-    },
-    {
-      "id": "f15a145aaf1478a8",
-      "start": "2026-06-02T11:25:00",
-      "end": "2026-06-02T12:15:00",
-      "subject_raw": "ENWS",
-      "subject_canonical": "Englische Wirtschaftssprache",
-      "subject_color": "#E67E22",
-      "teachers": [
-        "BERG"
-      ],
-      "teacher_names": [
-        "Mag. Julia Bergmann"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "cancelled",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "760abe32a3b9f625",
-      "start": "2026-06-02T12:15:00",
-      "end": "2026-06-02T13:05:00",
-      "subject_raw": "ENWS",
-      "subject_canonical": "Englische Wirtschaftssprache",
-      "subject_color": "#E67E22",
-      "teachers": [
-        "BERG"
-      ],
-      "teacher_names": [
-        "Mag. Julia Bergmann"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "cancelled",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "d9ec143714e2607f",
-      "start": "2026-06-02T13:40:00",
-      "end": "2026-06-02T14:30:00",
-      "subject_raw": "APR",
-      "subject_canonical": "Angewandtes Programmieren",
-      "subject_color": "#3498DB",
-      "teachers": [
-        "RASS"
-      ],
-      "teacher_names": [
-        "Mag. Peter Rasser"
-      ],
-      "rooms": [
-        "R5AK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "additional",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "Workshop traffic safety for you - WS Drogen",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "2c92e8391f550897",
-      "start": "2026-06-02T14:30:00",
-      "end": "2026-06-02T15:20:00",
-      "subject_raw": "APR",
-      "subject_canonical": "Angewandtes Programmieren",
-      "subject_color": "#3498DB",
-      "teachers": [
-        "RASS"
-      ],
-      "teacher_names": [
-        "Mag. Peter Rasser"
-      ],
-      "rooms": [
-        "R5AK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "additional",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "Workshop traffic safety for you - WS Drogen",
-      "lesson_text": "",
-      "info": ""
-    },
     {
       "id": "9d1e01174211c9a2",
       "start": "2026-06-03T07:40:00",
@@ -4841,6 +4501,252 @@
       ],
       "rooms": [
         "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "690b800cf827b7f1",
+      "start": "2026-07-08T07:40:00",
+      "end": "2026-07-08T17:00:00",
+      "subject_raw": "?",
+      "subject_canonical": "?",
+      "subject_color": "#95A5A6",
+      "teachers": [],
+      "teacher_names": [],
+      "rooms": [],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "df6a34d3e292a7d9",
+      "start": "2026-07-08T07:40:00",
+      "end": "2026-07-08T08:30:00",
+      "subject_raw": "GEO",
+      "subject_canonical": "Geografie und Wirtschaftskunde",
+      "subject_color": "#16A085",
+      "teachers": [
+        "NIND"
+      ],
+      "teacher_names": [
+        "Mag. Miriam Nindl-Scharler"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "3a9032d1cec07ac1",
+      "start": "2026-07-08T08:30:00",
+      "end": "2026-07-08T09:20:00",
+      "subject_raw": "GEO",
+      "subject_canonical": "Geografie und Wirtschaftskunde",
+      "subject_color": "#16A085",
+      "teachers": [
+        "NIND"
+      ],
+      "teacher_names": [
+        "Mag. Miriam Nindl-Scharler"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "d09b0608e9916f19",
+      "start": "2026-07-08T09:35:00",
+      "end": "2026-07-08T10:25:00",
+      "subject_raw": "APR",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
+      "teachers": [
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "c37fc92faa3365ba",
+      "start": "2026-07-08T10:25:00",
+      "end": "2026-07-08T11:15:00",
+      "subject_raw": "APR",
+      "subject_canonical": "Angewandtes Programmieren",
+      "subject_color": "#3498DB",
+      "teachers": [
+        "RASS"
+      ],
+      "teacher_names": [
+        "Mag. Peter Rasser"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "1cae342b4dc732c2",
+      "start": "2026-07-08T11:25:00",
+      "end": "2026-07-08T12:15:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
+      "teachers": [
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "5b61f46725425398",
+      "start": "2026-07-08T12:15:00",
+      "end": "2026-07-08T13:05:00",
+      "subject_raw": "ENWS",
+      "subject_canonical": "Englische Wirtschaftssprache",
+      "subject_color": "#E67E22",
+      "teachers": [
+        "BERG"
+      ],
+      "teacher_names": [
+        "Mag. Julia Bergmann"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "52f8e547d075e2ce",
+      "start": "2026-07-08T13:40:00",
+      "end": "2026-07-08T14:30:00",
+      "subject_raw": "RK",
+      "subject_canonical": "Religion (kath.)",
+      "subject_color": "#9B59B6",
+      "teachers": [
+        "KRAN"
+      ],
+      "teacher_names": [
+        "Sandra Kranawendter, MEd"
+      ],
+      "rooms": [
+        "R2AK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "2350231820ee680d",
+      "start": "2026-07-08T14:30:00",
+      "end": "2026-07-08T15:20:00",
+      "subject_raw": "RK",
+      "subject_canonical": "Religion (kath.)",
+      "subject_color": "#9B59B6",
+      "teachers": [
+        "KRAN"
+      ],
+      "teacher_names": [
+        "Sandra Kranawendter, MEd"
+      ],
+      "rooms": [
+        "R2AK"
       ],
       "classes": [
         "2BHK"
