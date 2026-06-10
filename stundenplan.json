@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-06-10T06:42:20.396350+00:00",
+  "generated_at": "2026-06-10T11:03:48.528422+00:00",
   "timezone": "Europe/Vienna",
   "school": {
     "name": "hakzell-hlpzell",
@@ -1413,6 +1413,35 @@
       "info": ""
     },
     {
+      "id": "d0246df73ea48496",
+      "start": "2026-06-15T07:40:00",
+      "end": "2026-06-15T23:59:00",
+      "subject_raw": "?",
+      "subject_canonical": "?",
+      "subject_color": "#95A5A6",
+      "teachers": [
+        "#210",
+        "SNEP"
+      ],
+      "teacher_names": [
+        "",
+        "MMag. Johannes Schnepf"
+      ],
+      "rooms": [],
+      "classes": [
+        "2BHK",
+        "2HLP"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "Sportwoche Palfau (Leitung SNEP)",
+      "lesson_text": "Sportwoche Palfau (Leitung SNEP)",
+      "info": ""
+    },
+    {
       "id": "4ce19a9ddc3b0a33",
       "start": "2026-06-15T07:40:00",
       "end": "2026-06-15T08:30:00",
@@ -1637,6 +1666,35 @@
       "info": ""
     },
     {
+      "id": "d75c9a546ad0f54a",
+      "start": "2026-06-16T00:00:00",
+      "end": "2026-06-16T23:59:00",
+      "subject_raw": "?",
+      "subject_canonical": "?",
+      "subject_color": "#95A5A6",
+      "teachers": [
+        "#210",
+        "SNEP"
+      ],
+      "teacher_names": [
+        "",
+        "MMag. Johannes Schnepf"
+      ],
+      "rooms": [],
+      "classes": [
+        "2BHK",
+        "2HLP"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "Sportwoche Palfau (Leitung SNEP)",
+      "lesson_text": "Sportwoche Palfau (Leitung SNEP)",
+      "info": ""
+    },
+    {
       "id": "1267dbe9a82b5172",
       "start": "2026-06-16T07:40:00",
       "end": "2026-06-16T08:30:00",
@@ -1802,6 +1860,35 @@
       "original_rooms": [],
       "note": "",
       "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "cd68de5d562473bc",
+      "start": "2026-06-17T00:00:00",
+      "end": "2026-06-17T23:59:00",
+      "subject_raw": "?",
+      "subject_canonical": "?",
+      "subject_color": "#95A5A6",
+      "teachers": [
+        "#210",
+        "SNEP"
+      ],
+      "teacher_names": [
+        "",
+        "MMag. Johannes Schnepf"
+      ],
+      "rooms": [],
+      "classes": [
+        "2BHK",
+        "2HLP"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "Sportwoche Palfau (Leitung SNEP)",
+      "lesson_text": "Sportwoche Palfau (Leitung SNEP)",
       "info": ""
     },
     {
@@ -1973,6 +2060,35 @@
       "info": ""
     },
     {
+      "id": "c91714d25662a2be",
+      "start": "2026-06-18T00:00:00",
+      "end": "2026-06-18T23:59:00",
+      "subject_raw": "?",
+      "subject_canonical": "?",
+      "subject_color": "#95A5A6",
+      "teachers": [
+        "#210",
+        "SNEP"
+      ],
+      "teacher_names": [
+        "",
+        "MMag. Johannes Schnepf"
+      ],
+      "rooms": [],
+      "classes": [
+        "2BHK",
+        "2HLP"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "Sportwoche Palfau (Leitung SNEP)",
+      "lesson_text": "Sportwoche Palfau (Leitung SNEP)",
+      "info": ""
+    },
+    {
       "id": "f01664d372b7489d",
       "start": "2026-06-18T07:40:00",
       "end": "2026-06-18T08:30:00",
@@ -2141,6 +2257,35 @@
       "info": ""
     },
     {
+      "id": "c15f8af72adc6760",
+      "start": "2026-06-19T00:00:00",
+      "end": "2026-06-19T17:00:00",
+      "subject_raw": "?",
+      "subject_canonical": "?",
+      "subject_color": "#95A5A6",
+      "teachers": [
+        "#210",
+        "SNEP"
+      ],
+      "teacher_names": [
+        "",
+        "MMag. Johannes Schnepf"
+      ],
+      "rooms": [],
+      "classes": [
+        "2BHK",
+        "2HLP"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "Sportwoche Palfau (Leitung SNEP)",
+      "lesson_text": "Sportwoche Palfau (Leitung SNEP)",
+      "info": ""
+    },
+    {
       "id": "028e9a9bc1eadcd1",
       "start": "2026-06-19T07:40:00",
       "end": "2026-06-19T08:30:00",
@@ -2253,17 +2398,17 @@
       "info": ""
     },
     {
-      "id": "57154672ad6f90ac",
+      "id": "b00238ed66e7c4af",
       "start": "2026-06-22T07:40:00",
       "end": "2026-06-22T08:30:00",
       "subject_raw": "IMCM",
       "subject_canonical": "Internet- und Content-Management",
       "subject_color": "#00BCD4",
       "teachers": [
-        "GRUB"
+        "#0"
       ],
       "teacher_names": [
-        "MMag. Peter Gruber"
+        ""
       ],
       "rooms": [
         "R2BK"
@@ -2273,25 +2418,29 @@
       ],
       "status": "regular",
       "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
+      "original_teachers": [
+        "GRUB"
+      ],
+      "original_teacher_names": [
+        "MMag. Peter Gruber"
+      ],
       "original_rooms": [],
       "note": "",
       "lesson_text": "",
       "info": ""
     },
     {
-      "id": "5542ae409eb42f36",
+      "id": "ca4562e81633c885",
       "start": "2026-06-22T08:30:00",
       "end": "2026-06-22T09:20:00",
       "subject_raw": "IMCM",
       "subject_canonical": "Internet- und Content-Management",
       "subject_color": "#00BCD4",
       "teachers": [
-        "GRUB"
+        "#0"
       ],
       "teacher_names": [
-        "MMag. Peter Gruber"
+        ""
       ],
       "rooms": [
         "R2BK"
@@ -2301,8 +2450,12 @@
       ],
       "status": "regular",
       "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
+      "original_teachers": [
+        "GRUB"
+      ],
+      "original_teacher_names": [
+        "MMag. Peter Gruber"
+      ],
       "original_rooms": [],
       "note": "",
       "lesson_text": "",
@@ -4515,14 +4668,18 @@
       "info": ""
     },
     {
-      "id": "690b800cf827b7f1",
+      "id": "15073a8d6820690d",
       "start": "2026-07-08T07:40:00",
       "end": "2026-07-08T17:00:00",
       "subject_raw": "?",
       "subject_canonical": "?",
       "subject_color": "#95A5A6",
-      "teachers": [],
-      "teacher_names": [],
+      "teachers": [
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
+      ],
       "rooms": [],
       "classes": [
         "2BHK"
@@ -4532,8 +4689,8 @@
       "original_teachers": [],
       "original_teacher_names": [],
       "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
+      "note": "Padel Tennis Uttendorf",
+      "lesson_text": "Padel Tennis Uttendorf",
       "info": ""
     },
     {
