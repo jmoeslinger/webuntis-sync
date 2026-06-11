@@ -459,8 +459,20 @@ def _lesson_status(lesson: Lesson) -> str:
 
 
 def _stable_id(lesson: Lesson) -> str:
-    """Stabile, deterministische ID fuer eine Stunde (fuer App-Caching)."""
-    raw = f"{lesson.start.isoformat()}|{lesson.subject}|{','.join(lesson.teachers)}|{','.join(lesson.rooms)}"
+    """Stabile, deterministische ID fuer eine Stunde. An ihr haengen in der
+    App die User-Notizen (LessonAnnotation) — sie muss daher Vertretungen
+    ueberleben.
+
+    Deshalb: bei Vertretung/Raumwechsel den URSPRUENGLICHEN Lehrer/Raum
+    hashen (der aktuelle wuerde die ID kippen und die Notiz verwaisen).
+    Entfallene Stunden bekommen ein 'C'-Suffix, damit das Entfall/Ersatz-
+    Paar derselben Zeit nicht kollidiert. Regulaere Stunden behalten exakt
+    die bisherige ID (kein Migrations-Bruch)."""
+    teachers = lesson.original_teachers or lesson.teachers
+    rooms = lesson.original_rooms or lesson.rooms
+    raw = f"{lesson.start.isoformat()}|{lesson.subject}|{','.join(teachers)}|{','.join(rooms)}"
+    if lesson.code == "cancelled":
+        raw += "|C"
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]
 
 
