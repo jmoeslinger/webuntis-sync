@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-06-10T22:56:43.034245+00:00",
+  "generated_at": "2026-06-11T01:39:28.080992+00:00",
   "timezone": "Europe/Vienna",
   "school": {
     "name": "hakzell-hlpzell",
@@ -124,174 +124,6 @@
   },
   "default_color": "#95A5A6",
   "lessons": [
-    {
-      "id": "9d1e01174211c9a2",
-      "start": "2026-06-03T07:40:00",
-      "end": "2026-06-03T08:30:00",
-      "subject_raw": "GEO",
-      "subject_canonical": "Geografie und Wirtschaftskunde",
-      "subject_color": "#16A085",
-      "teachers": [
-        "NIND"
-      ],
-      "teacher_names": [
-        "Mag. Miriam Nindl-Scharler"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "da1a2a9dab6e94f8",
-      "start": "2026-06-03T08:30:00",
-      "end": "2026-06-03T09:20:00",
-      "subject_raw": "GEO",
-      "subject_canonical": "Geografie und Wirtschaftskunde",
-      "subject_color": "#16A085",
-      "teachers": [
-        "NIND"
-      ],
-      "teacher_names": [
-        "Mag. Miriam Nindl-Scharler"
-      ],
-      "rooms": [
-        "R2BK"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "035d0e83348bff29",
-      "start": "2026-06-03T09:35:00",
-      "end": "2026-06-03T10:25:00",
-      "subject_raw": "APR",
-      "subject_canonical": "Angewandtes Programmieren",
-      "subject_color": "#3498DB",
-      "teachers": [
-        "RASS"
-      ],
-      "teacher_names": [
-        "Mag. Peter Rasser"
-      ],
-      "rooms": [
-        "EDV2"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "2ea36095fe5bfc95",
-      "start": "2026-06-03T10:25:00",
-      "end": "2026-06-03T11:15:00",
-      "subject_raw": "APR",
-      "subject_canonical": "Angewandtes Programmieren",
-      "subject_color": "#3498DB",
-      "teachers": [
-        "RASS"
-      ],
-      "teacher_names": [
-        "Mag. Peter Rasser"
-      ],
-      "rooms": [
-        "EDV2"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "regular",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": ""
-    },
-    {
-      "id": "9239f19a04bd488a",
-      "start": "2026-06-03T11:25:00",
-      "end": "2026-06-03T12:15:00",
-      "subject_raw": "UNCO",
-      "subject_canonical": "Unternehmensrechnungen",
-      "subject_color": "#B71C5C",
-      "teachers": [
-        "SEME"
-      ],
-      "teacher_names": [
-        "Mag. Michaela Semler"
-      ],
-      "rooms": [
-        "EDV2"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "cancelled",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": "SüUnco PV"
-    },
-    {
-      "id": "3465e956ecd1b9fa",
-      "start": "2026-06-03T12:15:00",
-      "end": "2026-06-03T13:05:00",
-      "subject_raw": "UNCO",
-      "subject_canonical": "Unternehmensrechnungen",
-      "subject_color": "#B71C5C",
-      "teachers": [
-        "SEME"
-      ],
-      "teacher_names": [
-        "Mag. Michaela Semler"
-      ],
-      "rooms": [
-        "EDV2"
-      ],
-      "classes": [
-        "2BHK"
-      ],
-      "status": "cancelled",
-      "is_exam": false,
-      "original_teachers": [],
-      "original_teacher_names": [],
-      "original_rooms": [],
-      "note": "",
-      "lesson_text": "",
-      "info": "SüUnco PV"
-    },
     {
       "id": "fe280075e81ffce1",
       "start": "2026-06-08T07:40:00",
@@ -4904,6 +4736,196 @@
       ],
       "rooms": [
         "R2AK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "2a6ce7163df09e59",
+      "start": "2026-07-09T07:40:00",
+      "end": "2026-07-09T17:00:00",
+      "subject_raw": "?",
+      "subject_canonical": "?",
+      "subject_color": "#95A5A6",
+      "teachers": [],
+      "teacher_names": [],
+      "rooms": [],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "11c7a20ab509b6c5",
+      "start": "2026-07-09T07:40:00",
+      "end": "2026-07-09T08:30:00",
+      "subject_raw": "MAM",
+      "subject_canonical": "Mathematik",
+      "subject_color": "#5B4FE9",
+      "teachers": [
+        "ELLM"
+      ],
+      "teacher_names": [
+        "Viktoria Ellmauer, BSc"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "6e9a024607e3dc8d",
+      "start": "2026-07-09T08:30:00",
+      "end": "2026-07-09T09:20:00",
+      "subject_raw": "MAM",
+      "subject_canonical": "Mathematik",
+      "subject_color": "#5B4FE9",
+      "teachers": [
+        "ELLM"
+      ],
+      "teacher_names": [
+        "Viktoria Ellmauer, BSc"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "e466db663ca0066d",
+      "start": "2026-07-09T09:35:00",
+      "end": "2026-07-09T10:25:00",
+      "subject_raw": "NW3",
+      "subject_canonical": "Naturwissenschaften",
+      "subject_color": "#00838F",
+      "teachers": [
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
+      ],
+      "rooms": [
+        "NAWI"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "c9ce41b459ae9463",
+      "start": "2026-07-09T10:25:00",
+      "end": "2026-07-09T11:15:00",
+      "subject_raw": "NW3",
+      "subject_canonical": "Naturwissenschaften",
+      "subject_color": "#00838F",
+      "teachers": [
+        "SNEP"
+      ],
+      "teacher_names": [
+        "MMag. Johannes Schnepf"
+      ],
+      "rooms": [
+        "NAWI"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "f8585d5f5813859e",
+      "start": "2026-07-09T11:25:00",
+      "end": "2026-07-09T12:15:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#1F4E79",
+      "teachers": [
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "c79e89a880914a14",
+      "start": "2026-07-09T12:15:00",
+      "end": "2026-07-09T13:05:00",
+      "subject_raw": "BW",
+      "subject_canonical": "Betriebswirtschaft",
+      "subject_color": "#1F4E79",
+      "teachers": [
+        "HIRS"
+      ],
+      "teacher_names": [
+        "Mag. Bernd Hirschbichler"
+      ],
+      "rooms": [
+        "R2BK"
       ],
       "classes": [
         "2BHK"
