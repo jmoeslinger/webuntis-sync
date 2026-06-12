@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-06-11T23:55:15.551609+00:00",
+  "generated_at": "2026-06-12T05:02:33.474251+00:00",
   "timezone": "Europe/Vienna",
   "school": {
     "name": "hakzell-hlpzell",
@@ -4923,6 +4923,202 @@
       ],
       "teacher_names": [
         "Mag. Bernd Hirschbichler"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "10556d414ac5b90d",
+      "start": "2026-07-10T07:40:00",
+      "end": "2026-07-10T17:00:00",
+      "subject_raw": "?",
+      "subject_canonical": "?",
+      "subject_color": "#95A5A6",
+      "teachers": [
+        "SEME",
+        "ELLM"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler",
+        "Viktoria Ellmauer, BSc"
+      ],
+      "rooms": [],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "additional",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "Schulschluss",
+      "lesson_text": "Schulschluss",
+      "info": ""
+    },
+    {
+      "id": "a418abfa09ad8fd9",
+      "start": "2026-07-10T07:40:00",
+      "end": "2026-07-10T08:30:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
+      "teachers": [
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "13952751892ea29a",
+      "start": "2026-07-10T08:30:00",
+      "end": "2026-07-10T09:20:00",
+      "subject_raw": "UNCO",
+      "subject_canonical": "Unternehmensrechnungen",
+      "subject_color": "#B71C5C",
+      "teachers": [
+        "SEME"
+      ],
+      "teacher_names": [
+        "Mag. Michaela Semler"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "37648b4c9c602af0",
+      "start": "2026-07-10T09:35:00",
+      "end": "2026-07-10T10:25:00",
+      "subject_raw": "OMAI",
+      "subject_canonical": "Office Management",
+      "subject_color": "#F39C12",
+      "teachers": [
+        "EDEH"
+      ],
+      "teacher_names": [
+        "Mag. Harald Eder"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "cbae1a9c8a9fb957",
+      "start": "2026-07-10T10:25:00",
+      "end": "2026-07-10T11:15:00",
+      "subject_raw": "OMAI",
+      "subject_canonical": "Office Management",
+      "subject_color": "#F39C12",
+      "teachers": [
+        "EDEH"
+      ],
+      "teacher_names": [
+        "Mag. Harald Eder"
+      ],
+      "rooms": [
+        "EDV2"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "f96c7712c083e9ff",
+      "start": "2026-07-10T11:25:00",
+      "end": "2026-07-10T12:15:00",
+      "subject_raw": "PBGW",
+      "subject_canonical": "Politische Bildung und Geschichte",
+      "subject_color": "#8E44AD",
+      "teachers": [
+        "BODN"
+      ],
+      "teacher_names": [
+        "Dr. Gudrun Bodner"
+      ],
+      "rooms": [
+        "R2BK"
+      ],
+      "classes": [
+        "2BHK"
+      ],
+      "status": "cancelled",
+      "is_exam": false,
+      "original_teachers": [],
+      "original_teacher_names": [],
+      "original_rooms": [],
+      "note": "",
+      "lesson_text": "",
+      "info": ""
+    },
+    {
+      "id": "c9327e60b3550128",
+      "start": "2026-07-10T12:15:00",
+      "end": "2026-07-10T13:05:00",
+      "subject_raw": "PBGW",
+      "subject_canonical": "Politische Bildung und Geschichte",
+      "subject_color": "#8E44AD",
+      "teachers": [
+        "BODN"
+      ],
+      "teacher_names": [
+        "Dr. Gudrun Bodner"
       ],
       "rooms": [
         "R2BK"
